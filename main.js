@@ -12,23 +12,24 @@ window.TULSI_CONFIG = {
     name: "Tulsi Group",
     pageTitle: "Tulsi Group",
     logo: "images/pin/logo.png",                       // REPLACE (dark logo, UI brightens it on dark panels)
-    aboutHeading: "Driven by Purpose. Powered by People. Built on Trust.",   // REPLACE
-    aboutText: "Trusted by families across Surat, we make property buying smooth, transparent and absolutely stress-free." // REPLACE
+    aboutHeading: "Welcome to Tulsi Group — Where Dreams Come Home",
+    aboutText: "Building exceptional residential, commercial, and industrial properties in Vapi since 2005. Experience quality construction that stands the test of time."
   },
 
   /* ---------- Contact / About Us popup ---------- */
   contact: {
-    address: "REPLACE - Tulsi Group office address, Surat, Gujarat",
+    address: "B-1202, Sonorous, Mahatma Gandhi Circle, Vapi, Gujarat - 396191",
     mapsLink: "https://maps.google.com",           // REPLACE ("Open in Google" button)
-    phoneDisplay: "+91 00000 00000",               // REPLACE
-    whatsapp: "910000000000",                      // REPLACE (country code + number, digits only)
+    phoneDisplay: "+91 75675 55440",               // REPLACE
+    email: "sales@tulsigroupvapi.in",
+    whatsapp: "917567555440",                      // REPLACE (country code + number, digits only)
     whatsappAboutMessage: "Hello Tulsi Group, I'm interested in knowing more about your properties. Please share details.",
     whatsappEnquireMessage: "Hello \uD83D\uDC4B\nI am interested in your property.\nPlease share more information about available properties.\nThank you!"
   },
   social: {                                        // leave "" to hide an icon
-    website:   "https://example.com",              // REPLACE
-    instagram: "https://www.instagram.com/",       // REPLACE
-    facebook:  "https://www.facebook.com/"         // REPLACE
+    website: "https://www.tulsigroupvapi.in/",
+    instagram: "https://www.instagram.com/tulsigroupvapi",
+    facebook: ""
   },
 
   /* ---------- Share button (floating controls) ---------- */
@@ -42,8 +43,8 @@ window.TULSI_CONFIG = {
   maps: {
     apiKey: "AIzaSyADj8Ydma7BpqC7-wbggzXRTP1ZZ0j7osA",    // REPLACE
     mapId: "DEMO_MAP_ID",                          // REPLACE with your cloud Map ID (needed for Advanced Markers)
-    center: { lat: 20.82, lng: 72.88 },
-    zoom: 10,
+    center: { lat: 20.39, lng: 72.91 },
+    zoom: 11,
     minZoom: 9
   },
 
@@ -66,45 +67,213 @@ window.TULSI_CONFIG = {
    * polygon   : optional boundary [{lat,lng},...]; floorplan + bounds{sw,ne} optional map overlay
    */
   projects: [
-    { id: "proj-1", name: "Tulsi Kalash", subTitle: "Residential", areaText: "Sachin, Surat",
-      thumbnail: "images/Thumbnail/Tulsi Kalash.jpg", pin: "images/pin/Tulsi Kalash.png",
-      lat: 21.0939583, lng: 72.8728708, polygon: [],
-      tourUrl: "https://360eye.in/gallery/realestate/tulsikalash/index.html" },
-    { id: "proj-2", name: "Sarthak", subTitle: "Residential", areaText: "Athwa, Surat",
-      thumbnail: "images/Thumbnail/Sarthak.jpg", pin: "images/pin/Sarthak.png",
-      lat: 21.1705203, lng: 72.7906155, polygon: [],
-      tourUrl: "https://360eye.in/gallery/realestate/sarthak/index.html" },
-    { id: "proj-3", name: "Sonorium Trade Centre", subTitle: "Commercial", areaText: "Salvav, Vapi",
-      thumbnail: "images/Thumbnail/Sonorium Trade Centre.jpg", pin: "images/pin/Sonorium Trade Centre.png",
-      lat: 20.4052867, lng: 72.9160727, polygon: [],
-      tourUrl: "https://360eye.in/gallery/realestate/sonoriumtradecentre/index.html" },
-    { id: "proj-4", name: "Sonorous The Business Gateway", subTitle: "Commercial", areaText: "Vapi",
-      thumbnail: "images/Thumbnail/Sonorous The Business Gateway.jpg", pin: "images/pin/Sonorous The Business Gateway.png",
-      lat: 20.3734021, lng: 72.914107, polygon: [],
-      tourUrl: "https://360eye.in/gallery/realestate/sonorousthebusinessgateway/index.html" },
-    { id: "proj-5", name: "Tulsi Industrial Park", subTitle: "Industrial", areaText: "Sachin, Surat",
-      thumbnail: "images/Thumbnail/Tulsi Industrial Park.jpg", pin: "images/pin/Tulsi Industrial Park.png",
-      lat: 21.0627392, lng: 72.9036479, polygon: [],
-      tourUrl: "https://360eye.in/gallery/realestate/tulsiindustrialpark/index.html" }
+    {
+      id: "proj-1", name: "Tulsi Kalash", subTitle: "2 & 3 BHK Homes", areaText: "Muktanand Road",
+      thumbnail: "images/Thumbnail/Tulsi Kalash.webp", pin: "images/pin/Tulsi Kalash.png",
+      lat: 20.396896426479305, lng: 72.90234383231882, polygon: [
+        { lat: 20.396940424491248, lng: 72.90269090425267 },
+        { lat: 20.396610392789768, lng: 72.90244280296828 },
+        { lat: 20.396360062974434, lng: 72.90224774971648 },
+        { lat: 20.396339105326472, lng: 72.90222244854023 },
+        { lat: 20.396363493747284, lng: 72.90204363600662 },
+        { lat: 20.39687065178085,  lng: 72.90216457394853 },
+        { lat: 20.397239566183828, lng: 72.90225251631728 },
+        { lat: 20.397208735652004, lng: 72.90241378399662 },
+        { lat: 20.397030979190795, lng: 72.90253628907536 },
+        { lat: 20.396940424491248, lng: 72.90269090425267 }
+      ],
+      tourUrl: "https://360eye.in/gallery/realestate/tulsikalash/index.html"
+    },
+    {
+      id: "proj-2", name: "Sarthak", subTitle: "2 & 3 BHK Homes", areaText: "Desaiwad",
+      thumbnail: "images/Thumbnail/Sarthak.webp", pin: "images/pin/Sarthak.png",
+      lat: 20.36839256619478, lng: 72.90392726226015, polygon: [
+        { lat: 20.3676791875884,   lng: 72.9040081175755 },
+        { lat: 20.36788400960169,  lng: 72.90318558466123 },
+        { lat: 20.36792370461436,  lng: 72.90313290880407 },
+        { lat: 20.368020597282047, lng: 72.90319738045736 },
+        { lat: 20.368027522526063, lng: 72.90329827552945 },
+        { lat: 20.36813811353967,  lng: 72.90337413771582 },
+        { lat: 20.368266833125332, lng: 72.90327655523838 },
+        { lat: 20.36835282732339,  lng: 72.9032784617055 },
+        { lat: 20.36838463931153,  lng: 72.9033376122485 },
+        { lat: 20.36842768798201,  lng: 72.90357548664545 },
+        { lat: 20.36837653631966,  lng: 72.90369559293482 },
+        { lat: 20.368418261908175, lng: 72.90379404844293 },
+        { lat: 20.368585900804845, lng: 72.9039749771968 },
+        { lat: 20.368338994087566, lng: 72.90436753224888 },
+        { lat: 20.368041898805846, lng: 72.90417921843651 },
+        { lat: 20.36819205398057,  lng: 72.90387019156326 },
+        { lat: 20.368058172270207, lng: 72.90378133412693 },
+        { lat: 20.367884277548228, lng: 72.90410484194496 },
+        { lat: 20.3676791875884,   lng: 72.9040081175755 }
+      ],
+      tourUrl: "https://360eye.in/gallery/realestate/sarthak/index.html"
+    },
+    {
+      id: "proj-3", name: "Sonorium Trade Centre", subTitle: "Shops & Offices", areaText: "Salvav NH-48",
+      thumbnail: "images/Thumbnail/Sonorium.webp", pin: "images/pin/Sonorium Trade Centre.png",
+      lat: 20.40532628890971, lng: 72.91622842123449, polygon: [
+        { lat: 20.40576445835637,  lng: 72.91604823485115 },
+        { lat: 20.40572582959655,  lng: 72.91644029042841 },
+        { lat: 20.40480521069374,  lng: 72.91636106805711 },
+        { lat: 20.404788959008705, lng: 72.91616093838311 },
+        { lat: 20.404851359161512, lng: 72.91579137045913 },
+        { lat: 20.40576445835637,  lng: 72.91604823485115 }
+      ],
+      tourUrl: "https://360eye.in/gallery/realestate/sonoriumtradecentre/index.html"
+    },
+    {
+      id: "proj-4", name: "Sonorous The Business Gateway", subTitle: "Shops & Offices", areaText: "MG Circle",
+      thumbnail: "images/Thumbnail/sonorus.webp", pin: "images/pin/Sonorous The Business Gateway.png",
+      lat: 20.37352878376545, lng: 72.91413907347848, polygon: [
+        { lat: 20.373622720396526, lng: 72.91348058279874 },
+        { lat: 20.37384985419426,  lng: 72.91426917407557 },
+        { lat: 20.373449691303545, lng: 72.91477176118309 },
+        { lat: 20.372977667689476, lng: 72.914649153363 },
+        { lat: 20.372741920366845, lng: 72.91446924832336 },
+        { lat: 20.37356972065077,  lng: 72.9134998474863 },
+        { lat: 20.373614043746183, lng: 72.91346072497518 },
+        { lat: 20.373622720396526, lng: 72.91348058279874 }
+      ],
+      tourUrl: "https://360eye.in/gallery/realestate/sonorousthebusinessgateway/index.html"
+    },
+    {
+      id: "proj-5", name: "Tulsi Industrial Park", subTitle: "Industrial", areaText: "Pariya",
+      thumbnail: "images/Thumbnail/Tulsi Industrial Park.webp", pin: "images/pin/Tulsi Industrial Park.png",
+      lat: 20.417674785190982, lng: 72.9682151257191, polygon: [
+        { lat: 20.4177244428471,   lng: 72.96497069810636 },
+        { lat: 20.41806160956376,  lng: 72.96514508506036 },
+        { lat: 20.41866190944892,  lng: 72.96532704820414 },
+        { lat: 20.419156010052255, lng: 72.96539788845475 },
+        { lat: 20.41945284959038,  lng: 72.96552551418257 },
+        { lat: 20.419694032371684, lng: 72.96545889001833 },
+        { lat: 20.41979408359951,  lng: 72.96583023292438 },
+        { lat: 20.419427729298373, lng: 72.96597649580306 },
+        { lat: 20.419049161074827, lng: 72.96621153671988 },
+        { lat: 20.419021167237155, lng: 72.96630832100637 },
+        { lat: 20.419012831205013, lng: 72.96650287777891 },
+        { lat: 20.419033700912024, lng: 72.96668251051885 },
+        { lat: 20.419053965343057, lng: 72.96682243082617 },
+        { lat: 20.419095848923547, lng: 72.96701552422964 },
+        { lat: 20.419186203816345, lng: 72.96719510454525 },
+        { lat: 20.419154018950316, lng: 72.96729684602857 },
+        { lat: 20.419137589505358, lng: 72.9673592267742 },
+        { lat: 20.4190995942921,   lng: 72.96741057167118 },
+        { lat: 20.419049722046427, lng: 72.96755279758267 },
+        { lat: 20.419047009607272, lng: 72.96757209376759 },
+        { lat: 20.419030329431642, lng: 72.96761361242123 },
+        { lat: 20.418964994195505, lng: 72.96770400400814 },
+        { lat: 20.418926356028155, lng: 72.96775459256136 },
+        { lat: 20.418881889165874, lng: 72.96787023416515 },
+        { lat: 20.418845752010245, lng: 72.96804227030317 },
+        { lat: 20.418491263949733, lng: 72.9681135403812 },
+        { lat: 20.418535777228726, lng: 72.9683652968479 },
+        { lat: 20.418570541508956, lng: 72.96846168896815 },
+        { lat: 20.418610789797896, lng: 72.96866152292927 },
+        { lat: 20.418638142068563, lng: 72.96882644697062 },
+        { lat: 20.418641455509434, lng: 72.96900288226396 },
+        { lat: 20.418636103067907, lng: 72.96907603057114 },
+        { lat: 20.41860123945344,  lng: 72.96924696320657 },
+        { lat: 20.418561865969934, lng: 72.96936635528931 },
+        { lat: 20.41882529698807,  lng: 72.96943534869717 },
+        { lat: 20.41875897819639,  lng: 72.96974080235672 },
+        { lat: 20.418992395073317, lng: 72.96987702677237 },
+        { lat: 20.41918037844695,  lng: 72.96995576511084 },
+        { lat: 20.41918302450992,  lng: 72.96998242340442 },
+        { lat: 20.419107348563305, lng: 72.97019106647576 },
+        { lat: 20.418944109290553, lng: 72.97039281143459 },
+        { lat: 20.418656363340837, lng: 72.9707232631141 },
+        { lat: 20.41862674297248,  lng: 72.97077063537914 },
+        { lat: 20.418572269253538, lng: 72.9709617304309 },
+        { lat: 20.418500106236614, lng: 72.97108356963054 },
+        { lat: 20.41846279940496,  lng: 72.97114209848215 },
+        { lat: 20.418437974738563, lng: 72.97116092337744 },
+        { lat: 20.41838286404699,  lng: 72.97115891328927 },
+        { lat: 20.418221931313195, lng: 72.97110452164728 },
+        { lat: 20.41798549320451,  lng: 72.97100921489603 },
+        { lat: 20.417917844072115, lng: 72.97096639832859 },
+        { lat: 20.417856734262077, lng: 72.97086778342074 },
+        { lat: 20.41782752475844,  lng: 72.97078809691571 },
+        { lat: 20.417795375042,    lng: 72.97070211446417 },
+        { lat: 20.417732210733877, lng: 72.97057682482813 },
+        { lat: 20.41764773514341,  lng: 72.9704655664483 },
+        { lat: 20.417494201619885, lng: 72.97031970113133 },
+        { lat: 20.417326671908015, lng: 72.9702001468889 },
+        { lat: 20.416815279773754, lng: 72.96994733722829 },
+        { lat: 20.416558180241033, lng: 72.96984049181516 },
+        { lat: 20.416340732584825, lng: 72.969773608627 },
+        { lat: 20.416033841749524, lng: 72.9696981252321 },
+        { lat: 20.416006255486977, lng: 72.9696863433204 },
+        { lat: 20.415771031587425, lng: 72.96955929104939 },
+        { lat: 20.415832277411468, lng: 72.96940222529878 },
+        { lat: 20.41612457109612,  lng: 72.96930294666299 },
+        { lat: 20.416251616924146, lng: 72.96913148402705 },
+        { lat: 20.41617833147195,  lng: 72.96912031479735 },
+        { lat: 20.41622726783667,  lng: 72.96896877399833 },
+        { lat: 20.41588081046885,  lng: 72.9686547309379 },
+        { lat: 20.41583694117058,  lng: 72.96840396143833 },
+        { lat: 20.415812480731976, lng: 72.96835353724826 },
+        { lat: 20.415563365897814, lng: 72.96802888021276 },
+        { lat: 20.41551755539686,  lng: 72.96797801646584 },
+        { lat: 20.4154194253251,   lng: 72.96792460972831 },
+        { lat: 20.415352312128334, lng: 72.96789614438988 },
+        { lat: 20.415310349283427, lng: 72.96731972180274 },
+        { lat: 20.41530908965735,  lng: 72.96727520631923 },
+        { lat: 20.415568796627255, lng: 72.96715448453742 },
+        { lat: 20.415849920492796, lng: 72.96701687437053 },
+        { lat: 20.4159301328527,   lng: 72.96694990102887 },
+        { lat: 20.41610162389053,  lng: 72.96669164766774 },
+        { lat: 20.416179096949786, lng: 72.96670796439058 },
+        { lat: 20.416208370944467, lng: 72.96665155042987 },
+        { lat: 20.416279424591654, lng: 72.96651235690828 },
+        { lat: 20.416317051599773, lng: 72.96643364547012 },
+        { lat: 20.416328169154294, lng: 72.96639390552068 },
+        { lat: 20.416339267096202, lng: 72.96634232341573 },
+        { lat: 20.416221867812613, lng: 72.96584610789809 },
+        { lat: 20.416227363995677, lng: 72.96581880339794 },
+        { lat: 20.416215762240437, lng: 72.96553938587225 },
+        { lat: 20.41621151093148,  lng: 72.9653892388903 },
+        { lat: 20.417150840274452, lng: 72.96512562037884 },
+        { lat: 20.4177244428471,   lng: 72.96497069810636 }
+      ],
+      tourUrl: "https://360eye.in/gallery/realestate/tulsiindustrialpark/index.html"
+    },
+    {
+      id: "proj-6", name: "Ananta", subTitle: "4, 5 & 6 BHK Homes", areaText: "Ajitnagar",
+      thumbnail: "images/Thumbnail/Ananta.webp", pin: "images/pin/Ananta.png",
+      lat: 20.383242401206278, lng: 72.89650148305863, polygon: [
+        { lat: 20.383991242168296, lng: 72.89592740240423 },
+        { lat: 20.383786087710398, lng: 72.8969987607698 },
+        { lat: 20.383524710979092, lng: 72.8974119036167 },
+        { lat: 20.382700397381587, lng: 72.89723091453422 },
+        { lat: 20.38268524609155,  lng: 72.89670371151688 },
+        { lat: 20.38257758914835,  lng: 72.89623515383323 },
+        { lat: 20.38279517792651,  lng: 72.89594095173076 },
+        { lat: 20.383206419297093, lng: 72.89561692671118 },
+        { lat: 20.383991242168296, lng: 72.89592740240423 }
+      ],
+      tourUrl: "https://360eye.in/gallery/3d/ananta/index.html"
+    }
   ],
 
-  /* ---------- Other Tulsi projects (map pins only, not clickable, not in gallery) ----------
-   * lat/lng come from Google Places - verify each one. lat: null = coordinates not found yet (pin hidden). */
+  /* ---------- Other Tulsi projects (map text-pins only, not in gallery) ----------
+   * lat: null = pin hidden. link: opens in new tab on click (optional). */
   otherProjects: [
-    { name: "Tulsi Darshan Apartment", pin: "images/pin/Tulsi Darshan Apartment.png", lat: 21.2286104, lng: 72.78261 }, // Jahangirabad - check
-    { name: "Tulsi Veer Apartment", pin: "images/pin/Tulsi Veer Apartment.png", lat: null, lng: null }, // not found
-    { name: "Tulsi Vatika", pin: "images/pin/Tulsi Vatika.png", lat: null, lng: null }, // not found
-    { name: "Tulsi Vihar", pin: "images/pin/Tulsi Vihar.png", lat: 21.1938954, lng: 72.7992939 }, // Adajan - check
-    { name: "Tulsi Mani Apartment", pin: "images/pin/Tulsi Mani Apartment.png", lat: null, lng: null }, // not found
-    { name: "Ratnamani", pin: "images/pin/Ratnamani.png", lat: 21.1661773, lng: 72.7971125 }, // Ratnamani Apartment, Athwa - check
-    { name: "Madhav Gems", pin: "images/pin/Madhav Gems.png", lat: 21.2113841, lng: 72.849517 }, // Varachha - low confidence
-    { name: "Lake View Residency", pin: "images/pin/Lake View Residency.png", lat: 21.2543439, lng: 72.8587106 }, // Kosad - check
-    { name: "Pearl Avenue", pin: "images/pin/Pearl Avenue.png", lat: 20.3270104, lng: 72.9570089 }, // Pearl Avenue Vapi - check
-    { name: "Tulsi Bunglow", pin: "images/pin/Tulsi Bunglow.png", lat: 20.3937007, lng: 72.9254322 }, // Salvav, Vapi (near Sonorium) - check
-    { name: "Tulsi Residency", pin: "images/pin/Tulsi Residency.png", lat: 21.2383284, lng: 72.8173239 }, // Dabholi - several Tulsi Residency exist, check
-    { name: "Tulsi Kunj", pin: "images/pin/Tulsi Kunj.png", lat: null, lng: null }, // not found
-    { name: "Tulsi Shivam", pin: "images/pin/Tulsi Shivam.png", lat: null, lng: null }, // not found
-    { name: "Tulsi Shyam", pin: "images/pin/Tulsi Shyam.png", lat: 21.1592019, lng: 72.8073366 } // Althan - check
+    { name: "Tulsi Residency",    lat: 20.4077286, lng: 72.871367,  link: "https://maps.app.goo.gl/tnA1C6BU2R9c6DJK8" },
+    { name: "Tulsi Bungalow",     lat: 20.3937007, lng: 72.9254322, link: "https://maps.app.goo.gl/nSknouiqZ9VyKNkQ6" },
+    { name: "Tulsi Vatika",       lat: 20.384579,  lng: 72.905729,  link: "https://maps.app.goo.gl/89WBExqgYbCDhmUr9" },
+    { name: "Madhav Gems",        lat: 20.3833787, lng: 72.9108186, link: "https://maps.app.goo.gl/uexMev3T9N1Enaxk9" },
+    { name: "Lake View Residency",lat: 20.3427658, lng: 72.9406363, link: "https://maps.app.goo.gl/Qk3hg5G48GEMRiFD8" },
+    { name: "Peace Avenue",          lat: 20.3401076, lng: 72.9392183, link: "https://maps.app.goo.gl/kSPmTiwPz68aiGGr9" },
+    { name: "Tulsi Darshan Apartment", lat: 20.3747293, lng: 72.9012565, link: "https://maps.app.goo.gl/ARUndB8kTtoLy8aj8" },
+    { name: "Tulsi Ver Apartment",   lat: 20.3721025, lng: 72.9072931, link: "https://maps.app.goo.gl/CNHdVzMwtGEfCLbU8" },
+    { name: "Ratnamani",             lat: 20.3715804, lng: 72.9060315, link: "https://maps.app.goo.gl/CESCBZdnbwbnEDdH8" },
+    { name: "Tulsimani Apartment",   lat: 20.371186,  lng: 72.9074749, link: "https://maps.app.goo.gl/ywM7grhAvg3cBRQG6" },
+    { name: "Tulsi Kunj",            lat: 20.3700741, lng: 72.9048751, link: "https://maps.app.goo.gl/WNzRdkVf3GBFeUH56" },
+    { name: "Tulsi Vihar",           lat: 20.369757,  lng: 72.9049817, link: "https://maps.app.goo.gl/u5bNUmEY155PHD2q6" },
+    { name: "Tulsi Shyam",           lat: 20.36927,   lng: 72.905937,  link: "https://maps.app.goo.gl/QfvYy3FJTea6zHSq7" },
+    { name: "Tulsi Shivam",          lat: 20.369117,  lng: 72.905446,  link: "https://maps.app.goo.gl/SRgubjSuvNbTadiLA" }
   ],
 
   /* ---------- Property Filter panel ----------
@@ -115,98 +284,252 @@ window.TULSI_CONFIG = {
    * and the sheet will override filterData / landmarks live. */
   sheetUrl: "",
   filterData: [
-    { property_id: 1, name: "Tulsi Kalash", possession_status: "Completed", category: "Residential", area: "Sachin" },
-    { property_id: 2, name: "Sarthak", possession_status: "On-going", category: "Residential", area: "Athwa" },
-    { property_id: 3, name: "Sonorium Trade Centre", possession_status: "On-going", category: "Commercial", area: "Salvav" },
-    { property_id: 4, name: "Sonorous The Business Gateway", possession_status: "Completed", category: "Commercial", area: "Vapi" },
-    { property_id: 5, name: "Tulsi Industrial Park", possession_status: "Completed", category: "Industrial", area: "Sachin" }
+    { property_id: 1, name: "Tulsi Kalash", possession_status: "Completed", category: "Residential", sub_category: "2BHK, 3BHK", area: "Muktanand Road" },
+    { property_id: 2, name: "Sarthak", possession_status: "On-going", category: "Residential", sub_category: "2BHK, 3BHK", area: "Desaiwad" },
+    { property_id: 3, name: "Sonorium Trade Centre", possession_status: "On-going", category: "Commercial", sub_category: "Shops, Offices", area: "Salvav NH-48" },
+    { property_id: 4, name: "Sonorous The Business Gateway", possession_status: "Completed", category: "Commercial", sub_category: "Shops, Offices", area: "MG Circle" },
+    { property_id: 5, name: "Tulsi Industrial Park", possession_status: "Completed", category: "Industrial", sub_category: "", area: "Pariya" },
+    { property_id: 6, name: "Ananta", possession_status: "On-going", category: "Residential", sub_category: "4BHK, 5BHK, 6BHK", area: "Ajitnagar" }
   ],
   filterIgnore: ["property_id", "name", "all_title", "dependency", "question",
-                 "other_area", "other_possession_timing", "other_property_size"],
+    "other_area", "other_possession_timing", "other_property_size", "possession_status"],
 
   /* ---------- Landmark Filter (map toggles) ----------
    * fname must be one of: BRTS, Railway, Metro, Circle, Bridge, Roads, School, College,
    * Hospital, Grocery, Garden, Lake, Aquarium, Multiplex.  Icons: images/landmarks/<fname>.webp
    * These are sample Surat landmarks - REPLACE with the ones around Tulsi projects. */
   landmarks: [
-    { lat: 21.231992, lng: 72.779363, name: "Vasu Pujya Apartment BRTS", fname: "BRTS" },
-    { lat: 21.227069, lng: 72.784322, name: "Samdrasti Park BRTS", fname: "BRTS" },
-    { lat: 21.262117, lng: 72.845839, name: "Global Residency BRTS", fname: "BRTS" },
-    { lat: 21.258978, lng: 72.84645499999999, name: "Kosad Depot BRTS BRTS", fname: "BRTS" },
-    { lat: 21.2335791, lng: 72.8552098, name: "Utran Railway Station", fname: "Railway" },
-    { lat: 21.2610368, lng: 72.8674173, name: "Kosad Railway Station", fname: "Railway" },
-    { lat: 21.2374398, lng: 72.8774951, name: "Sudama Chowk", fname: "Circle" },
-    { lat: 21.2316093, lng: 72.866295, name: "VIP Circle", fname: "Circle" },
-    { lat: 21.2693243, lng: 72.8467258, name: "Vedant Circle", fname: "Circle" },
-    { lat: 21.2299894, lng: 72.779117, name: "The Radiant Circle", fname: "Circle" },
-    { lat: 21.2368372, lng: 72.884537, name: "Mahadev Chowk", fname: "Circle" },
-    { lat: 21.2387781, lng: 72.8889536, name: "Lajamni Chowk", fname: "Circle" },
-    { lat: 21.2559244, lng: 72.8213459, name: "Sahid Bhagat Singh Bridge", fname: "Bridge" },
-    { lat: 21.2354993, lng: 72.8445968, name: "Amroli Bridg", fname: "Bridge" },
-    { lat: 21.2285145, lng: 72.8512286, name: "Tapi River Railway Bridge", fname: "Bridge" },
-    { lat: 21.2326524, lng: 72.7967747, name: "Dabholi-Jahaangirpura Bridge", fname: "Bridge" },
-    { lat: 21.2244576, lng: 72.8662178, name: "Kapodra utran Bridge", fname: "Bridge" },
-    { lat: 21.2274965, lng: 72.8796449, name: "Chikuvadi - Mota varachha Bridge", fname: "Bridge" },
-    { lat: 21.2349958, lng: 72.8912529, name: "Savaji Korat Bridge", fname: "Bridge" },
-    { lat: 21.2633797, lng: 72.8511327, name: "Harikrushn International School", fname: "School" },
-    { lat: 21.2631696, lng: 72.8561397, name: "Madhuvan International School", fname: "School" },
-    { lat: 21.2338617, lng: 72.8668826, name: "Ashadeep School 4", fname: "School" },
-    { lat: 21.2379179, lng: 72.86904229999999, name: "Vidyadhish International School", fname: "School" },
-    { lat: 21.2338867, lng: 72.8723, name: "Gajera International School", fname: "School" },
-    { lat: 21.2417641, lng: 72.8484582, name: "Podar International School Amroli", fname: "School" },
-    { lat: 21.2409115, lng: 72.7582833, name: "Gyanmudra Innovative School", fname: "School" },
-    { lat: 21.2191518, lng: 72.7830251, name: "Madhav Saraswati Shishumandir", fname: "School" },
-    { lat: 21.2234121, lng: 72.77963559999999, name: "The Radiant International School", fname: "School" },
-    { lat: 21.2324294, lng: 72.7767598, name: "Podar International School Surat (Jahangirabad) CBSE", fname: "School" },
-    { lat: 21.2359579, lng: 72.8523081, name: "J. Z. Shah Arts & H. P. Desai Commerce College", fname: "College" },
-    { lat: 21.2636613, lng: 72.83064279999999, name: "Varniraj hospital", fname: "Hospital" },
-    { lat: 21.2332952, lng: 72.863855, name: "Silver Multispeciality Hospital", fname: "Hospital" },
-    { lat: 21.2221882, lng: 72.7903803, name: "Pahal Hospital & Pahal Bliss IVF", fname: "Hospital" },
-    { lat: 21.2183604, lng: 72.791158, name: "LifeLine Multispeciality Hospital", fname: "Hospital" },
-    { lat: 21.221697, lng: 72.7759573, name: "SHAISHAV CHILDREN CLINIC & VACCINATION", fname: "Hospital" },
-    { lat: 21.2309324, lng: 72.7766394, name: "Ugat Urban Health Center", fname: "Hospital" },
-    { lat: 21.2594996, lng: 72.8534243, name: "D-Mart", fname: "Grocery" },
-    { lat: 21.2603446, lng: 72.850673, name: "Yogi Arcade", fname: "Grocery" },
-    { lat: 21.2632389, lng: 72.8500664, name: "Kailashbaa Naturals", fname: "Grocery" },
-    { lat: 21.260054, lng: 72.8519048, name: "SWASTIK MASALA", fname: "Grocery" },
-    { lat: 21.2407851, lng: 72.8716556, name: "D Mart", fname: "Grocery" },
-    { lat: 21.2358858, lng: 72.8617965, name: "Emporis Galaxy", fname: "Grocery" },
-    { lat: 21.2340958, lng: 72.8657595, name: "Sitaram Provision Store", fname: "Grocery" },
-    { lat: 21.2339448, lng: 72.8632969, name: "VIVEK SUPER STORE", fname: "Grocery" },
-    { lat: 21.2372593, lng: 72.8854233, name: "Dhara Arcade", fname: "Grocery" },
-    { lat: 21.2416554, lng: 72.8875478, name: "Raghuvir Shoppers", fname: "Grocery" },
-    { lat: 21.2303165, lng: 72.7782048, name: "D Mart", fname: "Grocery" },
-    { lat: 21.2299462, lng: 72.7798446, name: "Nirvana shopping mall", fname: "Grocery" },
-    { lat: 21.2292713, lng: 72.7786986, name: "Times Galaxy", fname: "Grocery" },
-    { lat: 21.2422831, lng: 72.8822279, name: "Mota Varachha Lake Garden", fname: "Garden" },
-    { lat: 21.2222744, lng: 72.784053, name: "Sneh Rashmi Botanical Garden", fname: "Garden" },
-    { lat: 21.2169293, lng: 72.75714510000002, name: "Bhesan Lake Garden", fname: "Garden" },
-    { lat: 21.2324167, lng: 72.8686518, name: "Moon Garden", fname: "Garden" },
-    { lat: 21.254244, lng: 72.8591847, name: "Kosad Lake Garden", fname: "Garden" },
-    { lat: 21.2323332, lng: 72.8987899, name: "Sarthana Nature Park", fname: "Garden" },
-    { lat: 21.2423851, lng: 72.872014, name: "Cinezza Multiplex", fname: "Multiplex" },
-    { lat: 21.2352203, lng: 72.8733021, name: "Rajhans Multiplex - AR Mall", fname: "Multiplex" },
-    { lat: 21.2299045, lng: 72.7786271, name: "Cinezza Multiplex", fname: "Multiplex" }
+    // Railway
+    { lat: 20.3734917, lng: 72.9084648,  name: "Vapi Railway Station", fname: "Railway" },
+    { lat: 20.3277033, lng: 72.9493207,  name: "Upcoming Vapi Bullet Train Station", fname: "Railway" },
+    // Circle
+    { lat: 20.3733314, lng: 72.9136436,  name: "Mahatma Gandhi Circle", fname: "Circle" },
+    { lat: 20.3738836, lng: 72.9075044,  name: "Sardar Vallabhbhai Patel Circle", fname: "Circle" },
+    { lat: 20.3650741, lng: 72.9217496,  name: "Vapi Char Rasta", fname: "Circle" },
+    { lat: 20.3835047, lng: 72.8822738,  name: "Kachigam Char Rasta Circle", fname: "Circle" },
+    // School
+    { lat: 20.3879895, lng: 72.9073159,  name: "Boon Max English Medium High School", fname: "School" },
+    { lat: 20.4204126, lng: 72.9214613,  name: "Podar International School Vapi (CBSE)", fname: "School" },
+    { lat: 20.4057841, lng: 72.8870626,  name: "Divya Jyoti English Higher Secondary School", fname: "School" },
+    { lat: 20.3667363, lng: 72.9068613,  name: "Sanskar Bharti High School", fname: "School" },
+    { lat: 20.3718814, lng: 72.9157703,  name: "Shri Vidhya Niketan", fname: "School" },
+    { lat: 20.4098278, lng: 72.9163241,  name: "Shree Swaminarayan Gurukul Salvav", fname: "School" },
+    { lat: 20.3844881, lng: 72.9208977,  name: "Vidya Dham International School", fname: "School" },
+    { lat: 20.3775749, lng: 72.9226559,  name: "Shishtachar - Kidzee Vapi", fname: "School" },
+    { lat: 20.3769203, lng: 72.9212991,  name: "Shree Krishna International School", fname: "School" },
+    { lat: 20.3851013, lng: 72.930965,   name: "Shree Raj Rajeshwari Vidya Mandir", fname: "School" },
+    { lat: 20.3870235, lng: 72.9001129,  name: "Podar Little Maestros Chala", fname: "School" },
+    { lat: 20.3765076, lng: 72.9185275,  name: "Jay Ambe Vidhyabhavan", fname: "School" },
+    { lat: 20.3850995, lng: 72.9156655,  name: "Shemrock Nirmal", fname: "School" },
+    { lat: 20.3923915, lng: 72.9457798,  name: "Samarpan Gyan School", fname: "School" },
+    { lat: 20.3829395, lng: 72.9420025,  name: "Gnyan Ganga English Medium High School", fname: "School" },
+    { lat: 20.417315,  lng: 72.97456,    name: "I.C. Desai High School Dumlav", fname: "School" },
+    { lat: 20.34975,   lng: 72.8873196,  name: "Lumens School", fname: "School" },
+    { lat: 20.34638,   lng: 72.9264174,  name: "Winners English High School", fname: "School" },
+    // College
+    { lat: 20.3823667, lng: 72.9185569,  name: "ROFEL GRIMS Management Studies Institute", fname: "College" },
+    { lat: 20.3815002, lng: 72.9221672,  name: "Sandra Shroff College Of Nursing", fname: "College" },
+    { lat: 20.3719192, lng: 72.8937443,  name: "Rofel Shri G M Bilakhia College of Pharmacy", fname: "College" },
+    { lat: 20.4106224, lng: 72.9157074,  name: "Smt. B.N.B. Swaminarayan Pharmacy College", fname: "College" },
+    { lat: 20.3683376, lng: 72.9225667,  name: "Parul University Vapi Admission Office", fname: "College" },
+    { lat: 20.376272,  lng: 72.929631,   name: "RK Desai College", fname: "College" },
+    { lat: 20.3698128, lng: 72.8951273,  name: "ROFEL Arts & Commerce College", fname: "College" },
+    { lat: 20.386304,  lng: 72.9114703,  name: "Shri Khandubhai PTC College", fname: "College" },
+    { lat: 20.3472204, lng: 72.9340519,  name: "Keshavji Bharmal Sumaria Commerce College", fname: "College" },
+    { lat: 20.450381,  lng: 72.9503882,  name: "Polytechnic in Horticulture NAU Paria", fname: "College" },
+    // Hospital
+    { lat: 20.3814386, lng: 72.9055842,  name: "Aadit Hospital", fname: "Hospital" },
+    { lat: 20.3708562, lng: 72.9224764,  name: "21st Century Hospital", fname: "Hospital" },
+    { lat: 20.3918572, lng: 72.8949891,  name: "Mamta Hospital", fname: "Hospital" },
+    { lat: 20.3839075, lng: 72.9120685,  name: "Aayush Hospital", fname: "Hospital" },
+    { lat: 20.3732013, lng: 72.913414,   name: "Gurukrupa Hospital", fname: "Hospital" },
+    { lat: 20.3763238, lng: 72.9108715,  name: "Dixit Hospital & Harshai IVF Centre", fname: "Hospital" },
+    { lat: 20.3816897, lng: 72.9213694,  name: "Haria L G Rotary Hospital", fname: "Hospital" },
+    { lat: 20.4326317, lng: 72.9604703,  name: "Primary Health Centre Pariya", fname: "Hospital" },
+    { lat: 20.3747424, lng: 72.9159290,  name: "Shivam Child Care", fname: "Hospital" },
+    { lat: 20.3537209, lng: 72.929081,   name: "Shalby Hospital Vapi", fname: "Hospital" },
+    { lat: 20.3482785, lng: 72.9340696,  name: "ESIC Hospital Vapi", fname: "Hospital" },
+    { lat: 20.3776389, lng: 72.9270986,  name: "Shreeji Dental Hospital", fname: "Hospital" },
+    { lat: 20.3867642, lng: 72.8993042,  name: "Urmil Eye Hospital", fname: "Hospital" },
+    // Garden
+    { lat: 20.3891953, lng: 72.9109631,  name: "Aapdu Mojilu Vapi", fname: "Garden" },
+    { lat: 20.3850804, lng: 72.9040346,  name: "Vishwakarma Society Garden", fname: "Garden" },
+    { lat: 20.3822856, lng: 72.9113929,  name: "Sardar Patel Udhyan", fname: "Garden" },
+    { lat: 20.3747327, lng: 72.9015044,  name: "Janseva Garden", fname: "Garden" },
+    { lat: 20.3889772, lng: 72.8870552,  name: "Atal Bihari Vajpayee Jal Udhyan", fname: "Garden" },
+    { lat: 20.376834,  lng: 72.9225589,  name: "Dharmshi Park", fname: "Garden" },
+    { lat: 20.3768794, lng: 72.9243625,  name: "GIDC Garden", fname: "Garden" },
+    { lat: 20.3706367, lng: 72.9039753,  name: "Datt Wadi", fname: "Garden" },
+    { lat: 20.3723066, lng: 72.8910623,  name: "Patil Garden", fname: "Garden" },
+    { lat: 20.351187,  lng: 72.909078,   name: "UPL Social Forestry Site", fname: "Garden" },
+    // Multiplex
+    { lat: 20.3832883, lng: 72.9036538,  name: "Rajhans Cinemas - Vapi", fname: "Multiplex" },
+    { lat: 20.3951343, lng: 72.8927311,  name: "Cine Park", fname: "Multiplex" },
+    { lat: 20.3983514, lng: 72.8909587,  name: "Anant Cinema", fname: "Multiplex" },
+    { lat: 20.3755755, lng: 72.9211581,  name: "Gunjan Geet Cinema", fname: "Multiplex" },
+    { lat: 20.4121123, lng: 72.9151697,  name: "Empress Cinemas", fname: "Multiplex" },
+    { lat: 20.4183716, lng: 72.9360555,  name: "Avadh Utopia", fname: "Multiplex" },
+    { lat: 20.4103159, lng: 72.8791014,  name: "Somnath Multiplex Cinema", fname: "Multiplex" },
+    { lat: 20.3565442, lng: 72.9275029,  name: "Samrat V Cinema", fname: "Multiplex" },
+    { lat: 20.3779783, lng: 72.9420023,  name: "Muskan Cinema", fname: "Multiplex" },
+    // Grocery
+    { lat: 20.3685485, lng: 72.9244908,  name: "Vishal Mega Mart", fname: "Grocery" },
+    { lat: 20.3706604, lng: 72.9232215,  name: "Reliance SMART Superstore", fname: "Grocery" },
+    { lat: 20.3864899, lng: 72.9069546,  name: "Reliance SMART Bazaar", fname: "Grocery" },
+    { lat: 20.4052638, lng: 72.9160831,  name: "My Mall - Salvav", fname: "Grocery" },
+    { lat: 20.3936566, lng: 72.9028098,  name: "Sarita Fruits and Vegetables", fname: "Grocery" },
+    { lat: 20.3689504, lng: 72.9030455,  name: "Deepak Super Store", fname: "Grocery" },
+    { lat: 20.3734156, lng: 72.9158169,  name: "Vikram Superstore Vapi", fname: "Grocery" },
+    { lat: 20.3985667, lng: 72.972269,   name: "Nittal Super Store", fname: "Grocery" },
+    // Lake
+    { lat: 20.3684121, lng: 72.8818243,  name: "Daman Ganga River", fname: "Lake" },
+    { lat: 20.3895115, lng: 72.8872731,  name: "Chala Lake", fname: "Lake" }
   ],
 
   /* Optional road polylines: [{ name, fname: "Roads", latlng: [{lat,lng},...] }] */
-  roads: []
+  roads: [
+    { name: "Ahmedabad - Mumbai Hwy", fname: "Roads", latlng: [
+      { lat: 20.4211878, lng: 72.9162094 },
+      { lat: 20.4204815, lng: 72.9157051 },
+      { lat: 20.4195514, lng: 72.9153457 },
+      { lat: 20.4190864, lng: 72.9153162 },
+      { lat: 20.4185359, lng: 72.9154503 },
+      { lat: 20.4182842, lng: 72.9156517 },
+      { lat: 20.4173491, lng: 72.9162471 },
+      { lat: 20.4166813, lng: 72.9166183 },
+      { lat: 20.41598, lng: 72.9168001 },
+      { lat: 20.4134837, lng: 72.917022 },
+      { lat: 20.4101266, lng: 72.9168374 },
+      { lat: 20.4096469, lng: 72.916751 },
+      { lat: 20.4089832, lng: 72.9165311 },
+      { lat: 20.4081185, lng: 72.9161824 },
+      { lat: 20.4067804, lng: 72.9159577 },
+      { lat: 20.4053123, lng: 72.9156949 },
+      { lat: 20.4014626, lng: 72.9145063 },
+      { lat: 20.3994011, lng: 72.9139215 },
+      { lat: 20.3991852, lng: 72.9138312 },
+      { lat: 20.3978477, lng: 72.9133269 },
+      { lat: 20.3962186, lng: 72.91293 },
+      { lat: 20.3930267, lng: 72.9119274 },
+      { lat: 20.3923329, lng: 72.9117611 },
+      { lat: 20.3874504, lng: 72.9109994 },
+      { lat: 20.3869239, lng: 72.9109787 },
+      { lat: 20.3867076, lng: 72.9109894 },
+      { lat: 20.386411, lng: 72.9110538 },
+      { lat: 20.3862098, lng: 72.9111074 },
+      { lat: 20.3859986, lng: 72.9112094 },
+      { lat: 20.3856517, lng: 72.9114079 },
+      { lat: 20.3699979, lng: 72.9223643 },
+      { lat: 20.3695353, lng: 72.9226754 },
+      { lat: 20.3691581, lng: 72.9228524 },
+      { lat: 20.3686904, lng: 72.9229704 },
+      { lat: 20.3681875, lng: 72.923008 },
+      { lat: 20.3677399, lng: 72.922949 },
+      { lat: 20.3672289, lng: 72.9228111 },
+      { lat: 20.3667562, lng: 72.9225965 },
+      { lat: 20.3656699, lng: 72.9220601 },
+      { lat: 20.3648351, lng: 72.9215988 },
+      { lat: 20.363266, lng: 72.920204 },
+      { lat: 20.3594639, lng: 72.9164275 },
+      { lat: 20.3522642, lng: 72.9094627 },
+      { lat: 20.3512723, lng: 72.9087973 },
+      { lat: 20.3506185, lng: 72.9085505 },
+      { lat: 20.3499948, lng: 72.9084754 },
+      { lat: 20.3492404, lng: 72.9084325 },
+      { lat: 20.348325, lng: 72.9086685 },
+      { lat: 20.3463131, lng: 72.9093981 },
+      { lat: 20.343597, lng: 72.9104388 },
+      { lat: 20.3427923, lng: 72.9104602 },
+      { lat: 20.342019, lng: 72.9102676 },
+      { lat: 20.3409527, lng: 72.9094629 },
+      { lat: 20.3377939, lng: 72.9062872 },
+      { lat: 20.3374619, lng: 72.9060833 },
+      { lat: 20.3368985, lng: 72.9058795 },
+      { lat: 20.3354499, lng: 72.9057293 },
+      { lat: 20.3256552, lng: 72.903916 }
+    ] },
+    { name: "Daman Rd", fname: "Roads", latlng: [
+      { lat: 20.4139372, lng: 72.8769492 },
+      { lat: 20.4130574, lng: 72.8775929 },
+      { lat: 20.4126753, lng: 72.8779577 },
+      { lat: 20.4124088, lng: 72.8783868 },
+      { lat: 20.4122178, lng: 72.8790038 },
+      { lat: 20.4119312, lng: 72.8798406 },
+      { lat: 20.4116956, lng: 72.8802914 },
+      { lat: 20.4110747, lng: 72.8811631 },
+      { lat: 20.4099962, lng: 72.8823647 },
+      { lat: 20.4038735, lng: 72.8868718 },
+      { lat: 20.4005254, lng: 72.8890717 },
+      { lat: 20.3979509, lng: 72.8907748 },
+      { lat: 20.397433, lng: 72.8911985 },
+      { lat: 20.3972017, lng: 72.8914936 },
+      { lat: 20.3969, lng: 72.8920139 },
+      { lat: 20.3966235, lng: 72.8924538 },
+      { lat: 20.3964324, lng: 72.8926791 },
+      { lat: 20.3961609, lng: 72.892883 },
+      { lat: 20.3954972, lng: 72.8931619 },
+      { lat: 20.3942703, lng: 72.8936823 },
+      { lat: 20.3897703, lng: 72.8969151 },
+      { lat: 20.3879149, lng: 72.898434 },
+      { lat: 20.3861952, lng: 72.9001775 },
+      { lat: 20.3841219, lng: 72.9022178 },
+      { lat: 20.3815311, lng: 72.9047954 },
+      { lat: 20.3773658, lng: 72.9087426 }
+    ] },
+    { name: "Silvasa Rd", fname: "Roads", latlng: [
+      { lat: 20.3769614, lng: 72.9095041 },
+      { lat: 20.3743514, lng: 72.9124653 },
+      { lat: 20.3732549, lng: 72.9137585 },
+      { lat: 20.3699824, lng: 72.9175176 },
+      { lat: 20.3688458, lng: 72.9188373 },
+      { lat: 20.368534, lng: 72.9192235 },
+      { lat: 20.3680412, lng: 72.9196312 },
+      { lat: 20.3669531, lng: 72.9204436 },
+      { lat: 20.3647368, lng: 72.921982 },
+      { lat: 20.362363, lng: 72.9236879 },
+      { lat: 20.3602819, lng: 72.9251046 },
+      { lat: 20.3547451, lng: 72.929092 },
+      { lat: 20.3537643, lng: 72.9298484 },
+      { lat: 20.3511611, lng: 72.9321944 },
+      { lat: 20.3493907, lng: 72.9336589 },
+      { lat: 20.3453564, lng: 72.9370092 },
+      { lat: 20.3451703, lng: 72.9371755 },
+      { lat: 20.3449792, lng: 72.9372935 },
+      { lat: 20.3447327, lng: 72.9374008 },
+      { lat: 20.3443706, lng: 72.9374169 },
+      { lat: 20.3437519, lng: 72.9373847 },
+      { lat: 20.3430505, lng: 72.9373993 },
+      { lat: 20.3427689, lng: 72.9374423 },
+      { lat: 20.3425123, lng: 72.9375817 },
+      { lat: 20.3423162, lng: 72.9376997 },
+      { lat: 20.3421502, lng: 72.9379197 },
+      { lat: 20.3416724, lng: 72.9385366 },
+      { lat: 20.3410655, lng: 72.9391913 },
+      { lat: 20.3394761, lng: 72.9407577 },
+      { lat: 20.337957, lng: 72.9424851 },
+      { lat: 20.3359651, lng: 72.9445343 },
+      { lat: 20.3343817, lng: 72.9461744 },
+      { lat: 20.333753, lng: 72.9466948 },
+      { lat: 20.331922, lng: 72.9480305 },
+      { lat: 20.3299758, lng: 72.9499621 }
+    ] }
+  ]
 };
 
 /* ======================= ICONS ======================= */
 /* Control-panel icons (copied from the Pramukh build) */
 window.TULSI_ICONS = {
- "musicOn": "<svg viewBox=\"0 0 32 32\" xmlns=\"http://www.w3.org/2000/svg\"><path fill=\"#ffffff\" d=\"M4,11v10h5l10,6V5L9,11H4z M17,8.532v14.935L9.554,19H6v-6h3.554L17,8.532z M21.657,21.657 l-1.414-1.414c2.339-2.34,2.339-6.146,0-8.486l1.414-1.414C24.775,13.462,24.775,18.538,21.657,21.657z M24.485,24.485l-1.414-1.414 c3.899-3.899,3.899-10.243,0-14.143l1.414-1.414C29.164,12.193,29.164,19.807,24.485,24.485z\"/></svg>",
- "musicOff": "<svg viewBox=\"0 0 16 16\" xmlns=\"http://www.w3.org/2000/svg\"><path fill=\"#ffffff\" d=\"M1.5 5h2.79l3.86-3.83.85.35v13l-.85.33L4.29 11H1.5l-.5-.5v-5l.5-.5zm3.35 5.17L8 13.31V2.73L4.85 5.85 4.5 6H2v4h2.5l.35.17zm9.381-4.108l.707.707L13.207 8.5l1.731 1.732-.707.707L12.5 9.207l-1.732 1.732-.707-.707L11.793 8.5 10.06 6.77l.707-.707 1.733 1.73 1.731-1.731z\"/></svg>",
- "fsOn": "<svg viewBox=\"0 0 64 64\" xmlns=\"http://www.w3.org/2000/svg\" fill=\"none\" stroke=\"#ffffff\" stroke-width=\"6\"><polyline points=\"52 40 40 40 40 52\"/><line x1=\"40\" y1=\"40\" x2=\"56\" y2=\"56\"/><polyline points=\"24 52 24 40 12 40\"/><line x1=\"24\" y1=\"40\" x2=\"8\" y2=\"56\"/><polyline points=\"12 24 24 24 24 12\"/><line x1=\"24\" y1=\"24\" x2=\"8\" y2=\"8\"/><polyline points=\"40 12 40 24 52 24\"/><line x1=\"40\" y1=\"24\" x2=\"56\" y2=\"8\"/></svg>",
- "fsOff": "<svg viewBox=\"0 0 64 64\" xmlns=\"http://www.w3.org/2000/svg\" fill=\"none\" stroke=\"#ffffff\" stroke-width=\"6\"><polyline points=\"20 8 8 8 8 20\"/><line x1=\"8\" y1=\"8\" x2=\"24\" y2=\"24\"/><polyline points=\"56 20 56 8 44 8\"/><line x1=\"56\" y1=\"8\" x2=\"40\" y2=\"24\"/><polyline points=\"44 56 56 56 56 44\"/><line x1=\"56\" y1=\"56\" x2=\"40\" y2=\"40\"/><polyline points=\"8 44 8 56 20 56\"/><line x1=\"8\" y1=\"56\" x2=\"24\" y2=\"40\"/></svg>",
- "share": "<svg viewBox=\"0 0 26 26\" fill=\"none\" stroke=\"#f0f0f0\" stroke-width=\"2\"><circle cx=\"18\" cy=\"5\" r=\"3\" fill=\"#f0f0f0\"/><circle cx=\"6\" cy=\"12\" r=\"3\" fill=\"#f0f0f0\"/><circle cx=\"18\" cy=\"19\" r=\"3\" fill=\"#f0f0f0\"/><line x1=\"8.59\" y1=\"13.51\" x2=\"15.42\" y2=\"17.49\"/><line x1=\"15.41\" y1=\"6.51\" x2=\"8.59\" y2=\"10.49\"/></svg>",
- "vr": "<svg viewBox=\"0 0 32 32\"  style=\"transform:scale(1.2);\"><path fill=\"none\" stroke=\"#ffffff\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-miterlimit=\"10\" d=\"M3,11v10c0,1.1,0.9,2,2,2h6.2c0.5,0,1-0.2,1.4-0.6l2-2c0.8-0.8,2-0.8,2.8,0l2,2c0.4,0.4,0.9,0.6,1.4,0.6H27c1.1,0,2-0.9,2-2V11c0-1.1-0.9-2-2-2H5C3.9,9,3,9.9,3,11z\"/><circle fill=\"none\" stroke=\"#ffffff\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-miterlimit=\"10\" cx=\"9\" cy=\"16\" r=\"3\"/><circle fill=\"none\" stroke=\"#ffffff\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-miterlimit=\"10\" cx=\"23\" cy=\"16\" r=\"3\"/></svg>",
- "enquire": "<svg viewBox=\"-2 -2 24 24\" width=\"24\" height=\"24\" xmlns=\"http://www.w3.org/2000/svg\" preserveAspectRatio=\"xMinYMin\"><defs><linearGradient id=\"neonGreen\" x1=\"0%\" y1=\"0%\" x2=\"100%\" y2=\"100%\"><stop offset=\"0%\" stop-color=\"#39ff14\"/><stop offset=\"50%\" stop-color=\"#00ff99\"/><stop offset=\"100%\" stop-color=\"#00cc66\"/></linearGradient><filter id=\"neonGlow\"><feGaussianBlur stdDeviation=\"0.5\" result=\"blur\"/><feMerge><feMergeNode in=\"blur\"/><feMergeNode in=\"SourceGraphic\"/></feMerge></filter></defs><g filter=\"url(#neonGlow)\" fill=\"url(#neonGreen)\"><path d=\"M9.516.012C4.206.262.017 4.652.033 9.929a9.798 9.798 0 0 0 1.085 4.465L.06 19.495a.387.387 0 0 0 .47.453l5.034-1.184a9.981 9.981 0 0 0 4.284 1.032c5.427.083 9.951-4.195 10.12-9.58C20.15 4.441 15.351-.265 9.516.011zm6.007 15.367a7.784 7.784 0 0 1-5.52 2.27 7.77 7.77 0 0 1-3.474-.808l-.701-.347-3.087.726.65-3.131-.346-.672A7.62 7.62 0 0 1 2.197 9.9c0-2.07.812-4.017 2.286-5.48a7.85 7.85 0 0 1 5.52-2.271c2.086 0 4.046.806 5.52 2.27a7.672 7.672 0 0 1 2.287 5.48c0 2.052-.825 4.03-2.287 5.481z\"/><path d=\"M14.842 12.045l-1.931-.55a.723.723 0 0 0-.713.186l-.472.478a.707.707 0 0 1-.765.16c-.913-.367-2.835-2.063-3.326-2.912a.694.694 0 0 1 .056-.774l.412-.53a.71.71 0 0 0 .089-.726L7.38 5.553a.723.723 0 0 0-1.125-.256c-.539.453-1.179 1.14-1.256 1.903-.137 1.343.443 3.036 2.637 5.07 2.535 2.349 4.566 2.66 5.887 2.341.75-.18 1.35-.903 1.727-1.494a.713.713 0 0 0-.408-1.072z\"/></g></svg>",
- "autoplay": "<svg xmlns=\"http://www.w3.org/2000/svg\" version=\"1.1\" width=\"512\" height=\"400\" viewBox=\"0 0 512 400\">\n<path d=\"M0 0 C5.81296637 2.62454275 11.26432244 5.87731694 16.72509766 9.15771484 C18.05845244 9.93595477 19.39302444 10.7121143 20.72900391 11.48583984 C23.4485462 13.06858832 26.15562097 14.67070494 28.85791016 16.28271484 C34.87515416 19.85680971 40.95799556 23.31617618 47.03759766 26.78271484 C48.24503875 27.47159314 49.45247688 28.16047664 50.65991211 28.84936523 C53.11936648 30.25225111 55.57911551 31.65461874 58.0390625 33.05664062 C63.9778115 36.44145536 69.91447273 39.82992506 75.85009766 43.22021484 C76.42683228 43.54962067 77.00356689 43.87902649 77.59777832 44.21841431 C87.25662488 49.73633184 96.90587679 55.27093117 106.52978516 60.84960938 C111.43061718 63.69000197 116.338596 66.51052451 121.29150391 69.25927734 C141.54069512 80.55986608 141.54069512 80.55986608 144.72509766 90.15771484 C145.2310947 96.53327755 144.6409417 100.58886075 140.45507812 105.7121582 C135.1132777 111.43335264 128.71271056 114.92091452 121.91259766 118.65771484 C120.66252437 119.35629005 119.41318783 120.05618509 118.16455078 120.75732422 C115.60159444 122.19575444 113.03605095 123.62939883 110.46875 125.06005859 C104.852212 128.19789006 99.29046635 131.43028968 93.72509766 134.65771484 C81.27059544 141.85615385 68.78197439 148.99429035 56.28808594 156.12402344 C50.87975663 159.21059427 45.47354935 162.30087837 40.06713867 165.39080811 C38.30547603 166.39749837 36.54363586 167.40387723 34.78173828 168.41015625 C29.35507438 171.50989506 23.93013303 174.6125321 18.51025391 177.72412109 C17.54982178 178.27487305 16.58938965 178.825625 15.59985352 179.39306641 C13.83035375 180.4079797 12.06157674 181.42415469 10.29370117 182.44189453 C8.11095611 183.69302666 5.91940034 184.92701486 3.72509766 186.15771484 C2.70029297 186.74810547 1.67548828 187.33849609 0.61962891 187.94677734 C-5.10701675 190.34254003 -11.20807079 189.96486146 -17.27490234 189.15771484 C-22.44017915 186.81213021 -24.47274009 183.20753604 -26.62684643 178.07789123 C-27.63762695 175.08296927 -27.65617026 172.29065516 -27.6625824 169.14369202 C-27.66796794 168.47365298 -27.67335347 167.80361395 -27.67890221 167.1132707 C-27.69311284 164.88708989 -27.68609561 162.66150952 -27.67895508 160.43530273 C-27.68466228 158.83150254 -27.69162789 157.2277064 -27.69975281 155.62391663 C-27.7176606 151.28089846 -27.71652035 146.93808261 -27.71081042 142.59503865 C-27.70771517 138.96436218 -27.71381476 135.33372438 -27.71984917 131.70305341 C-27.73388493 123.13558022 -27.73234097 114.56820676 -27.72094727 106.00073242 C-27.70946631 97.17276431 -27.72354345 88.3451 -27.75034374 79.51717192 C-27.77252015 71.92713793 -27.77913376 64.33719918 -27.77326733 56.7471351 C-27.76990127 52.21859264 -27.77228946 47.69024492 -27.78951836 43.16172981 C-27.80501647 38.90245076 -27.8010004 34.64362085 -27.78221321 30.38435936 C-27.77853526 28.82514658 -27.78161261 27.2659003 -27.792099 25.70671844 C-27.85383804 15.76465158 -27.18596111 9.23152081 -20.96240234 1.15771484 C-15.06814856 -3.07969646 -6.52207901 -2.4148071 0 0 Z \" fill=\"#FFFFFF\" transform=\"translate(197.27490234375,31.84228515625)\"/>\n<path d=\"M0 0 C3.72204581 2.19469984 6.24761638 4.72421908 8.4375 8.4375 C9.76317236 14.47667407 9.1132571 18.66456388 6.31542969 24.0402832 C4.13284743 27.29187707 1.2662072 28.98309133 -2.0625 30.9375 C-3.41288706 31.78603412 -4.76052631 32.63895595 -6.10546875 33.49609375 C-7.09812744 34.12427002 -7.09812744 34.12427002 -8.11083984 34.76513672 C-21.72159273 43.66190437 -33.56165927 56.04596439 -38 72 C-39.33285866 84.37454044 -36.97580288 94.0079325 -29.5 103.9375 C-26.82251768 107.14245207 -24.06043624 110.15308257 -21 113 C-20.37351563 113.63164062 -19.74703125 114.26328125 -19.1015625 114.9140625 C20.07310659 152.75171217 92.99672011 169 146 169 C145.58113525 168.59160889 145.16227051 168.18321777 144.73071289 167.76245117 C142.83608224 165.90939136 140.94925088 164.0485808 139.0625 162.1875 C138.40314453 161.54490234 137.74378906 160.90230469 137.06445312 160.24023438 C136.43603516 159.61826172 135.80761719 158.99628906 135.16015625 158.35546875 C134.57886963 157.78465576 133.99758301 157.21384277 133.39868164 156.62573242 C130.22273765 152.9342311 130.66353533 148.3388837 130.73046875 143.7265625 C131.12172336 139.76865354 132.23017476 137.83907087 135 135 C139.78915552 131.45407898 143.85781718 130.55185929 149.7265625 131.25 C157.03413287 133.66074487 162.21022883 139.91976367 167.484375 145.21875 C168.38117981 146.11364136 169.27798462 147.00853271 170.20196533 147.93054199 C172.09044007 149.81765922 173.97677899 151.70665097 175.85986328 153.59912109 C178.26951031 156.02019454 180.68807072 158.43213309 183.1094017 160.84151459 C185.42675987 163.14990057 187.73647681 165.46590115 190.046875 167.78125 C190.91455505 168.64488159 191.78223511 169.50851318 192.6762085 170.39831543 C193.87820892 171.60977234 193.87820892 171.60977234 195.10449219 172.84570312 C195.81031433 173.55311646 196.51613647 174.26052979 197.24334717 174.98937988 C200.47963243 178.69354961 201.29218134 181.5542487 201.3125 186.4375 C201.32925781 187.36433594 201.34601563 188.29117188 201.36328125 189.24609375 C200.67383618 194.47253218 197.39317718 197.85788716 193.77563477 201.4831543 C192.92787979 202.33721359 192.08012482 203.19127289 191.2066803 204.07121277 C189.83786964 205.43395073 189.83786964 205.43395073 188.44140625 206.82421875 C187.49091355 207.77606013 186.5407178 208.72819812 185.59080505 209.68061829 C183.60437895 211.66998462 181.61440178 213.65570971 179.62182617 215.63891602 C177.07181901 218.17751375 174.53091728 220.72500628 171.99260044 223.27528667 C170.03422562 225.24089657 168.07110229 227.20170819 166.1065197 229.16111183 C164.71240254 230.55325223 163.32230165 231.94941085 161.93226624 233.34562683 C160.65590553 234.61253105 160.65590553 234.61253105 159.35375977 235.9050293 C158.60780045 236.64939743 157.86184113 237.39376556 157.09327698 238.16069031 C152.72631293 241.9978315 149.14314076 242.43278473 143.47265625 242.32421875 C138.71340705 241.70017818 134.99860722 238.62989295 132 235 C131.00592062 232.01776186 130.76959022 229.81124878 130.6875 226.6875 C130.63142578 225.30111328 130.63142578 225.30111328 130.57421875 223.88671875 C131.55511656 217.23641157 137.1326798 212.61039677 141.75 208.125 C142.35199219 207.53203125 142.95398438 206.9390625 143.57421875 206.328125 C145.04491945 204.88076876 146.5218267 203.4397237 148 202 C146.70304199 201.84966309 145.40608398 201.69932617 144.06982422 201.54443359 C83.93189282 194.52432858 16.99552141 184.91958945 -32 146 C-32.55623047 145.56187988 -33.11246094 145.12375977 -33.68554688 144.67236328 C-50.94358754 130.94797069 -66.0851199 113.4226804 -70 91 C-71.94432945 68.42131335 -67.08653502 49.25529642 -52.375 31.59472656 C-42.8815793 20.58424645 -32.24505415 11.80362773 -20 4 C-19.02675781 3.37609375 -18.05351563 2.7521875 -17.05078125 2.109375 C-11.3483131 -1.14917823 -6.34327566 -2.11442522 0 0 Z \" fill=\"#FFFFFF\" transform=\"translate(70,127)\"/>\n<path d=\"M0 0 C1.60891917 1.49490127 3.21337513 2.99462617 4.8125 4.5 C5.48925781 5.10070312 6.16601562 5.70140625 6.86328125 6.3203125 C18.85846405 17.42607292 28.79710688 34.40634351 29.98950195 50.95678711 C30.61357955 77.1357234 23.2352304 96.26467511 5.25 115.5 C-34.35064049 153.26432047 -92.67133999 169.19792845 -145.3125 177.375 C-146.07473877 177.49520508 -146.83697754 177.61541016 -147.62231445 177.73925781 C-163.61958416 180.03498951 -163.61958416 180.03498951 -170.1875 175.5 C-174.61082017 170.59848306 -175.55986971 167.58429149 -175.45703125 161.10546875 C-175.0387549 157.06213068 -173.85600075 154.52827225 -171.1875 151.5 C-164.28466004 147.01662279 -156.77828228 146.1985436 -148.79943848 145.03521729 C-106.48228615 138.80541686 -52.77046853 127.32417502 -21.41015625 95.69921875 C-19.1875 93.5 -19.1875 93.5 -17.1875 93.5 C-16.77757812 92.6028125 -16.77757812 92.6028125 -16.359375 91.6875 C-15.22589524 89.57167111 -14.09576864 88.21176118 -12.4375 86.5 C-4.72897397 77.78766099 -1.67330835 67.80992781 -1.921875 56.41796875 C-2.80056774 43.45725077 -10.95732651 33.05526088 -20.09375 24.28515625 C-23.49364976 21.38636112 -27.05579833 18.69358995 -30.65722656 16.05029297 C-34.83715719 12.94459705 -37.53181854 10.46704437 -39.1875 5.5 C-39.72975459 0.83305478 -39.6573456 -2.57771048 -37.5 -6.8125 C-34.62596772 -10.15259157 -32.09184121 -12.75942286 -27.9375 -14.375 C-16.14516458 -14.91101525 -8.38094719 -7.41688118 0 0 Z \" fill=\"#FFFFFF\" transform=\"translate(482.1875,146.5)\"/>\n</svg>",
- "settings": "\n        <svg xmlns=\"http://www.w3.org/2000/svg\" width=\"800px\" height=\"800px\" viewBox=\"0 0 24 24\" fill=\"none\">\n<g id=\"style=fill\">\n<g id=\"setting\">\n<path id=\"Subtract\" fill-rule=\"evenodd\" clip-rule=\"evenodd\" d=\"M10.8946 3.00654C10.2226 1.87704 8.75191 1.45656 7.59248 2.14193L5.86749 3.12906C4.59518 3.85639 4.16378 5.48726 4.8906 6.74522L4.89112 6.74611C5.26606 7.39298 5.20721 7.8062 5.09018 8.00929C4.97308 8.21249 4.64521 8.47001 3.9 8.47001C2.43322 8.47001 1.25 9.66837 1.25 11.12V12.88C1.25 14.3317 2.43322 15.53 3.9 15.53C4.64521 15.53 4.97308 15.7875 5.09018 15.9907C5.20721 16.1938 5.26606 16.607 4.89112 17.2539L4.8906 17.2548C4.16378 18.5128 4.59558 20.1439 5.8679 20.8712L7.59257 21.8581C8.75199 22.5434 10.2226 22.123 10.8946 20.9935L11.0091 20.7958C11.3841 20.1489 11.773 19.9925 12.0087 19.9925C12.2434 19.9925 12.6293 20.1476 12.9993 20.793L13.0009 20.7958L13.1109 20.9858L13.1154 20.9935C13.7874 22.123 15.258 22.5434 16.4174 21.8581L18.1425 20.871C19.4157 20.1431 19.8444 18.5235 19.1212 17.2579L19.1189 17.2539C18.7439 16.607 18.8028 16.1938 18.9198 15.9907C19.0369 15.7875 19.3648 15.53 20.11 15.53C21.5768 15.53 22.76 14.3317 22.76 12.88V11.12C22.76 9.65323 21.5616 8.47001 20.11 8.47001C19.3648 8.47001 19.0369 8.21249 18.9198 8.00929C18.8028 7.8062 18.7439 7.39298 19.1189 6.74611L19.1194 6.74522C19.8463 5.48713 19.4147 3.85604 18.1421 3.12883L16.4175 2.14193C15.2581 1.45656 13.7874 1.877 13.1154 3.00651L13.0009 3.20423C12.6259 3.85115 12.237 4.00751 12.0012 4.00751C11.7666 4.00751 11.3807 3.85247 11.0107 3.20701L11.0091 3.20423L10.8991 3.01421L10.8946 3.00654ZM15 12C15 13.6569 13.6569 15 12 15C10.3431 15 9 13.6569 9 12C9 10.3431 10.3431 9 12 9C13.6569 9 15 10.3431 15 12Z\" fill=\"#ffffff\"/>\n</g>\n</g>\n</svg>",
- "close": "\n        <svg xmlns=\"http://www.w3.org/2000/svg\" width=\"22\" height=\"22\" viewBox=\"0 0 24 24\" fill=\"#ffffff\">\n            <path d=\"M18.3 5.71L12 12l6.3 6.29-1.41 1.41L10.59 13.41 4.29 19.7 2.88 18.29 9.17 12 2.88 5.71 4.29 4.29l6.3 6.3 6.29-6.3z\"/>\n        </svg>",
- "reset": "<svg version=\"1.1\" width=\"12\" height=\"12\" viewBox=\"0 0 256 256\">\n               <g transform=\"translate(1.4065934065934016 1.4065934065934016) scale(2.81 2.81)\">\n                   <path d=\"M 75.702 53.014 c -2.142 7.995 -7.27 14.678 -14.439 18.816 c -7.168 4.138 -15.519 5.239 -23.514 3.095 c -16.505 -4.423 -26.335 -21.448 -21.913 -37.953 C 20.258 20.467 37.286 10.64 53.79 15.06 c 4.213 1.129 8.076 3.118 11.413 5.809 l -8.349 8.35 h 26.654 V 2.565 l -8.354 8.354 c -5.1 -4.405 -11.133 -7.61 -17.74 -9.381 C 33.451 -4.882 8.735 9.389 2.314 33.35 c -6.42 23.961 7.851 48.678 31.811 55.098 C 38.001 89.486 41.934 90 45.842 90 c 7.795 0 15.488 -2.044 22.42 -6.046 c 10.407 -6.008 17.851 -15.709 20.962 -27.317 L 75.702 53.014 z\"\n                   style=\"fill: #f0f0f0\" />\n               </g>\n           </svg>"
+  "musicOn": "<svg viewBox=\"0 0 32 32\" xmlns=\"http://www.w3.org/2000/svg\"><path fill=\"#ffffff\" d=\"M4,11v10h5l10,6V5L9,11H4z M17,8.532v14.935L9.554,19H6v-6h3.554L17,8.532z M21.657,21.657 l-1.414-1.414c2.339-2.34,2.339-6.146,0-8.486l1.414-1.414C24.775,13.462,24.775,18.538,21.657,21.657z M24.485,24.485l-1.414-1.414 c3.899-3.899,3.899-10.243,0-14.143l1.414-1.414C29.164,12.193,29.164,19.807,24.485,24.485z\"/></svg>",
+  "musicOff": "<svg viewBox=\"0 0 16 16\" xmlns=\"http://www.w3.org/2000/svg\"><path fill=\"#ffffff\" d=\"M1.5 5h2.79l3.86-3.83.85.35v13l-.85.33L4.29 11H1.5l-.5-.5v-5l.5-.5zm3.35 5.17L8 13.31V2.73L4.85 5.85 4.5 6H2v4h2.5l.35.17zm9.381-4.108l.707.707L13.207 8.5l1.731 1.732-.707.707L12.5 9.207l-1.732 1.732-.707-.707L11.793 8.5 10.06 6.77l.707-.707 1.733 1.73 1.731-1.731z\"/></svg>",
+  "fsOn": "<svg viewBox=\"0 0 64 64\" xmlns=\"http://www.w3.org/2000/svg\" fill=\"none\" stroke=\"#ffffff\" stroke-width=\"6\"><polyline points=\"52 40 40 40 40 52\"/><line x1=\"40\" y1=\"40\" x2=\"56\" y2=\"56\"/><polyline points=\"24 52 24 40 12 40\"/><line x1=\"24\" y1=\"40\" x2=\"8\" y2=\"56\"/><polyline points=\"12 24 24 24 24 12\"/><line x1=\"24\" y1=\"24\" x2=\"8\" y2=\"8\"/><polyline points=\"40 12 40 24 52 24\"/><line x1=\"40\" y1=\"24\" x2=\"56\" y2=\"8\"/></svg>",
+  "fsOff": "<svg viewBox=\"0 0 64 64\" xmlns=\"http://www.w3.org/2000/svg\" fill=\"none\" stroke=\"#ffffff\" stroke-width=\"6\"><polyline points=\"20 8 8 8 8 20\"/><line x1=\"8\" y1=\"8\" x2=\"24\" y2=\"24\"/><polyline points=\"56 20 56 8 44 8\"/><line x1=\"56\" y1=\"8\" x2=\"40\" y2=\"24\"/><polyline points=\"44 56 56 56 56 44\"/><line x1=\"56\" y1=\"56\" x2=\"40\" y2=\"40\"/><polyline points=\"8 44 8 56 20 56\"/><line x1=\"8\" y1=\"56\" x2=\"24\" y2=\"40\"/></svg>",
+  "share": "<svg viewBox=\"0 0 26 26\" fill=\"none\" stroke=\"#f0f0f0\" stroke-width=\"2\"><circle cx=\"18\" cy=\"5\" r=\"3\" fill=\"#f0f0f0\"/><circle cx=\"6\" cy=\"12\" r=\"3\" fill=\"#f0f0f0\"/><circle cx=\"18\" cy=\"19\" r=\"3\" fill=\"#f0f0f0\"/><line x1=\"8.59\" y1=\"13.51\" x2=\"15.42\" y2=\"17.49\"/><line x1=\"15.41\" y1=\"6.51\" x2=\"8.59\" y2=\"10.49\"/></svg>",
+  "vr": "<svg viewBox=\"0 0 32 32\"  style=\"transform:scale(1.2);\"><path fill=\"none\" stroke=\"#ffffff\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-miterlimit=\"10\" d=\"M3,11v10c0,1.1,0.9,2,2,2h6.2c0.5,0,1-0.2,1.4-0.6l2-2c0.8-0.8,2-0.8,2.8,0l2,2c0.4,0.4,0.9,0.6,1.4,0.6H27c1.1,0,2-0.9,2-2V11c0-1.1-0.9-2-2-2H5C3.9,9,3,9.9,3,11z\"/><circle fill=\"none\" stroke=\"#ffffff\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-miterlimit=\"10\" cx=\"9\" cy=\"16\" r=\"3\"/><circle fill=\"none\" stroke=\"#ffffff\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-miterlimit=\"10\" cx=\"23\" cy=\"16\" r=\"3\"/></svg>",
+  "enquire": "<svg viewBox=\"-2 -2 24 24\" width=\"24\" height=\"24\" xmlns=\"http://www.w3.org/2000/svg\" preserveAspectRatio=\"xMinYMin\"><defs><linearGradient id=\"neonGreen\" x1=\"0%\" y1=\"0%\" x2=\"100%\" y2=\"100%\"><stop offset=\"0%\" stop-color=\"#39ff14\"/><stop offset=\"50%\" stop-color=\"#00ff99\"/><stop offset=\"100%\" stop-color=\"#00cc66\"/></linearGradient><filter id=\"neonGlow\"><feGaussianBlur stdDeviation=\"0.5\" result=\"blur\"/><feMerge><feMergeNode in=\"blur\"/><feMergeNode in=\"SourceGraphic\"/></feMerge></filter></defs><g filter=\"url(#neonGlow)\" fill=\"url(#neonGreen)\"><path d=\"M9.516.012C4.206.262.017 4.652.033 9.929a9.798 9.798 0 0 0 1.085 4.465L.06 19.495a.387.387 0 0 0 .47.453l5.034-1.184a9.981 9.981 0 0 0 4.284 1.032c5.427.083 9.951-4.195 10.12-9.58C20.15 4.441 15.351-.265 9.516.011zm6.007 15.367a7.784 7.784 0 0 1-5.52 2.27 7.77 7.77 0 0 1-3.474-.808l-.701-.347-3.087.726.65-3.131-.346-.672A7.62 7.62 0 0 1 2.197 9.9c0-2.07.812-4.017 2.286-5.48a7.85 7.85 0 0 1 5.52-2.271c2.086 0 4.046.806 5.52 2.27a7.672 7.672 0 0 1 2.287 5.48c0 2.052-.825 4.03-2.287 5.481z\"/><path d=\"M14.842 12.045l-1.931-.55a.723.723 0 0 0-.713.186l-.472.478a.707.707 0 0 1-.765.16c-.913-.367-2.835-2.063-3.326-2.912a.694.694 0 0 1 .056-.774l.412-.53a.71.71 0 0 0 .089-.726L7.38 5.553a.723.723 0 0 0-1.125-.256c-.539.453-1.179 1.14-1.256 1.903-.137 1.343.443 3.036 2.637 5.07 2.535 2.349 4.566 2.66 5.887 2.341.75-.18 1.35-.903 1.727-1.494a.713.713 0 0 0-.408-1.072z\"/></g></svg>",
+  "autoplay": "<svg xmlns=\"http://www.w3.org/2000/svg\" version=\"1.1\" width=\"512\" height=\"400\" viewBox=\"0 0 512 400\">\n<path d=\"M0 0 C5.81296637 2.62454275 11.26432244 5.87731694 16.72509766 9.15771484 C18.05845244 9.93595477 19.39302444 10.7121143 20.72900391 11.48583984 C23.4485462 13.06858832 26.15562097 14.67070494 28.85791016 16.28271484 C34.87515416 19.85680971 40.95799556 23.31617618 47.03759766 26.78271484 C48.24503875 27.47159314 49.45247688 28.16047664 50.65991211 28.84936523 C53.11936648 30.25225111 55.57911551 31.65461874 58.0390625 33.05664062 C63.9778115 36.44145536 69.91447273 39.82992506 75.85009766 43.22021484 C76.42683228 43.54962067 77.00356689 43.87902649 77.59777832 44.21841431 C87.25662488 49.73633184 96.90587679 55.27093117 106.52978516 60.84960938 C111.43061718 63.69000197 116.338596 66.51052451 121.29150391 69.25927734 C141.54069512 80.55986608 141.54069512 80.55986608 144.72509766 90.15771484 C145.2310947 96.53327755 144.6409417 100.58886075 140.45507812 105.7121582 C135.1132777 111.43335264 128.71271056 114.92091452 121.91259766 118.65771484 C120.66252437 119.35629005 119.41318783 120.05618509 118.16455078 120.75732422 C115.60159444 122.19575444 113.03605095 123.62939883 110.46875 125.06005859 C104.852212 128.19789006 99.29046635 131.43028968 93.72509766 134.65771484 C81.27059544 141.85615385 68.78197439 148.99429035 56.28808594 156.12402344 C50.87975663 159.21059427 45.47354935 162.30087837 40.06713867 165.39080811 C38.30547603 166.39749837 36.54363586 167.40387723 34.78173828 168.41015625 C29.35507438 171.50989506 23.93013303 174.6125321 18.51025391 177.72412109 C17.54982178 178.27487305 16.58938965 178.825625 15.59985352 179.39306641 C13.83035375 180.4079797 12.06157674 181.42415469 10.29370117 182.44189453 C8.11095611 183.69302666 5.91940034 184.92701486 3.72509766 186.15771484 C2.70029297 186.74810547 1.67548828 187.33849609 0.61962891 187.94677734 C-5.10701675 190.34254003 -11.20807079 189.96486146 -17.27490234 189.15771484 C-22.44017915 186.81213021 -24.47274009 183.20753604 -26.62684643 178.07789123 C-27.63762695 175.08296927 -27.65617026 172.29065516 -27.6625824 169.14369202 C-27.66796794 168.47365298 -27.67335347 167.80361395 -27.67890221 167.1132707 C-27.69311284 164.88708989 -27.68609561 162.66150952 -27.67895508 160.43530273 C-27.68466228 158.83150254 -27.69162789 157.2277064 -27.69975281 155.62391663 C-27.7176606 151.28089846 -27.71652035 146.93808261 -27.71081042 142.59503865 C-27.70771517 138.96436218 -27.71381476 135.33372438 -27.71984917 131.70305341 C-27.73388493 123.13558022 -27.73234097 114.56820676 -27.72094727 106.00073242 C-27.70946631 97.17276431 -27.72354345 88.3451 -27.75034374 79.51717192 C-27.77252015 71.92713793 -27.77913376 64.33719918 -27.77326733 56.7471351 C-27.76990127 52.21859264 -27.77228946 47.69024492 -27.78951836 43.16172981 C-27.80501647 38.90245076 -27.8010004 34.64362085 -27.78221321 30.38435936 C-27.77853526 28.82514658 -27.78161261 27.2659003 -27.792099 25.70671844 C-27.85383804 15.76465158 -27.18596111 9.23152081 -20.96240234 1.15771484 C-15.06814856 -3.07969646 -6.52207901 -2.4148071 0 0 Z \" fill=\"#FFFFFF\" transform=\"translate(197.27490234375,31.84228515625)\"/>\n<path d=\"M0 0 C3.72204581 2.19469984 6.24761638 4.72421908 8.4375 8.4375 C9.76317236 14.47667407 9.1132571 18.66456388 6.31542969 24.0402832 C4.13284743 27.29187707 1.2662072 28.98309133 -2.0625 30.9375 C-3.41288706 31.78603412 -4.76052631 32.63895595 -6.10546875 33.49609375 C-7.09812744 34.12427002 -7.09812744 34.12427002 -8.11083984 34.76513672 C-21.72159273 43.66190437 -33.56165927 56.04596439 -38 72 C-39.33285866 84.37454044 -36.97580288 94.0079325 -29.5 103.9375 C-26.82251768 107.14245207 -24.06043624 110.15308257 -21 113 C-20.37351563 113.63164062 -19.74703125 114.26328125 -19.1015625 114.9140625 C20.07310659 152.75171217 92.99672011 169 146 169 C145.58113525 168.59160889 145.16227051 168.18321777 144.73071289 167.76245117 C142.83608224 165.90939136 140.94925088 164.0485808 139.0625 162.1875 C138.40314453 161.54490234 137.74378906 160.90230469 137.06445312 160.24023438 C136.43603516 159.61826172 135.80761719 158.99628906 135.16015625 158.35546875 C134.57886963 157.78465576 133.99758301 157.21384277 133.39868164 156.62573242 C130.22273765 152.9342311 130.66353533 148.3388837 130.73046875 143.7265625 C131.12172336 139.76865354 132.23017476 137.83907087 135 135 C139.78915552 131.45407898 143.85781718 130.55185929 149.7265625 131.25 C157.03413287 133.66074487 162.21022883 139.91976367 167.484375 145.21875 C168.38117981 146.11364136 169.27798462 147.00853271 170.20196533 147.93054199 C172.09044007 149.81765922 173.97677899 151.70665097 175.85986328 153.59912109 C178.26951031 156.02019454 180.68807072 158.43213309 183.1094017 160.84151459 C185.42675987 163.14990057 187.73647681 165.46590115 190.046875 167.78125 C190.91455505 168.64488159 191.78223511 169.50851318 192.6762085 170.39831543 C193.87820892 171.60977234 193.87820892 171.60977234 195.10449219 172.84570312 C195.81031433 173.55311646 196.51613647 174.26052979 197.24334717 174.98937988 C200.47963243 178.69354961 201.29218134 181.5542487 201.3125 186.4375 C201.32925781 187.36433594 201.34601563 188.29117188 201.36328125 189.24609375 C200.67383618 194.47253218 197.39317718 197.85788716 193.77563477 201.4831543 C192.92787979 202.33721359 192.08012482 203.19127289 191.2066803 204.07121277 C189.83786964 205.43395073 189.83786964 205.43395073 188.44140625 206.82421875 C187.49091355 207.77606013 186.5407178 208.72819812 185.59080505 209.68061829 C183.60437895 211.66998462 181.61440178 213.65570971 179.62182617 215.63891602 C177.07181901 218.17751375 174.53091728 220.72500628 171.99260044 223.27528667 C170.03422562 225.24089657 168.07110229 227.20170819 166.1065197 229.16111183 C164.71240254 230.55325223 163.32230165 231.94941085 161.93226624 233.34562683 C160.65590553 234.61253105 160.65590553 234.61253105 159.35375977 235.9050293 C158.60780045 236.64939743 157.86184113 237.39376556 157.09327698 238.16069031 C152.72631293 241.9978315 149.14314076 242.43278473 143.47265625 242.32421875 C138.71340705 241.70017818 134.99860722 238.62989295 132 235 C131.00592062 232.01776186 130.76959022 229.81124878 130.6875 226.6875 C130.63142578 225.30111328 130.63142578 225.30111328 130.57421875 223.88671875 C131.55511656 217.23641157 137.1326798 212.61039677 141.75 208.125 C142.35199219 207.53203125 142.95398438 206.9390625 143.57421875 206.328125 C145.04491945 204.88076876 146.5218267 203.4397237 148 202 C146.70304199 201.84966309 145.40608398 201.69932617 144.06982422 201.54443359 C83.93189282 194.52432858 16.99552141 184.91958945 -32 146 C-32.55623047 145.56187988 -33.11246094 145.12375977 -33.68554688 144.67236328 C-50.94358754 130.94797069 -66.0851199 113.4226804 -70 91 C-71.94432945 68.42131335 -67.08653502 49.25529642 -52.375 31.59472656 C-42.8815793 20.58424645 -32.24505415 11.80362773 -20 4 C-19.02675781 3.37609375 -18.05351563 2.7521875 -17.05078125 2.109375 C-11.3483131 -1.14917823 -6.34327566 -2.11442522 0 0 Z \" fill=\"#FFFFFF\" transform=\"translate(70,127)\"/>\n<path d=\"M0 0 C1.60891917 1.49490127 3.21337513 2.99462617 4.8125 4.5 C5.48925781 5.10070312 6.16601562 5.70140625 6.86328125 6.3203125 C18.85846405 17.42607292 28.79710688 34.40634351 29.98950195 50.95678711 C30.61357955 77.1357234 23.2352304 96.26467511 5.25 115.5 C-34.35064049 153.26432047 -92.67133999 169.19792845 -145.3125 177.375 C-146.07473877 177.49520508 -146.83697754 177.61541016 -147.62231445 177.73925781 C-163.61958416 180.03498951 -163.61958416 180.03498951 -170.1875 175.5 C-174.61082017 170.59848306 -175.55986971 167.58429149 -175.45703125 161.10546875 C-175.0387549 157.06213068 -173.85600075 154.52827225 -171.1875 151.5 C-164.28466004 147.01662279 -156.77828228 146.1985436 -148.79943848 145.03521729 C-106.48228615 138.80541686 -52.77046853 127.32417502 -21.41015625 95.69921875 C-19.1875 93.5 -19.1875 93.5 -17.1875 93.5 C-16.77757812 92.6028125 -16.77757812 92.6028125 -16.359375 91.6875 C-15.22589524 89.57167111 -14.09576864 88.21176118 -12.4375 86.5 C-4.72897397 77.78766099 -1.67330835 67.80992781 -1.921875 56.41796875 C-2.80056774 43.45725077 -10.95732651 33.05526088 -20.09375 24.28515625 C-23.49364976 21.38636112 -27.05579833 18.69358995 -30.65722656 16.05029297 C-34.83715719 12.94459705 -37.53181854 10.46704437 -39.1875 5.5 C-39.72975459 0.83305478 -39.6573456 -2.57771048 -37.5 -6.8125 C-34.62596772 -10.15259157 -32.09184121 -12.75942286 -27.9375 -14.375 C-16.14516458 -14.91101525 -8.38094719 -7.41688118 0 0 Z \" fill=\"#FFFFFF\" transform=\"translate(482.1875,146.5)\"/>\n</svg>",
+  "settings": "\n        <svg xmlns=\"http://www.w3.org/2000/svg\" width=\"800px\" height=\"800px\" viewBox=\"0 0 24 24\" fill=\"none\">\n<g id=\"style=fill\">\n<g id=\"setting\">\n<path id=\"Subtract\" fill-rule=\"evenodd\" clip-rule=\"evenodd\" d=\"M10.8946 3.00654C10.2226 1.87704 8.75191 1.45656 7.59248 2.14193L5.86749 3.12906C4.59518 3.85639 4.16378 5.48726 4.8906 6.74522L4.89112 6.74611C5.26606 7.39298 5.20721 7.8062 5.09018 8.00929C4.97308 8.21249 4.64521 8.47001 3.9 8.47001C2.43322 8.47001 1.25 9.66837 1.25 11.12V12.88C1.25 14.3317 2.43322 15.53 3.9 15.53C4.64521 15.53 4.97308 15.7875 5.09018 15.9907C5.20721 16.1938 5.26606 16.607 4.89112 17.2539L4.8906 17.2548C4.16378 18.5128 4.59558 20.1439 5.8679 20.8712L7.59257 21.8581C8.75199 22.5434 10.2226 22.123 10.8946 20.9935L11.0091 20.7958C11.3841 20.1489 11.773 19.9925 12.0087 19.9925C12.2434 19.9925 12.6293 20.1476 12.9993 20.793L13.0009 20.7958L13.1109 20.9858L13.1154 20.9935C13.7874 22.123 15.258 22.5434 16.4174 21.8581L18.1425 20.871C19.4157 20.1431 19.8444 18.5235 19.1212 17.2579L19.1189 17.2539C18.7439 16.607 18.8028 16.1938 18.9198 15.9907C19.0369 15.7875 19.3648 15.53 20.11 15.53C21.5768 15.53 22.76 14.3317 22.76 12.88V11.12C22.76 9.65323 21.5616 8.47001 20.11 8.47001C19.3648 8.47001 19.0369 8.21249 18.9198 8.00929C18.8028 7.8062 18.7439 7.39298 19.1189 6.74611L19.1194 6.74522C19.8463 5.48713 19.4147 3.85604 18.1421 3.12883L16.4175 2.14193C15.2581 1.45656 13.7874 1.877 13.1154 3.00651L13.0009 3.20423C12.6259 3.85115 12.237 4.00751 12.0012 4.00751C11.7666 4.00751 11.3807 3.85247 11.0107 3.20701L11.0091 3.20423L10.8991 3.01421L10.8946 3.00654ZM15 12C15 13.6569 13.6569 15 12 15C10.3431 15 9 13.6569 9 12C9 10.3431 10.3431 9 12 9C13.6569 9 15 10.3431 15 12Z\" fill=\"#ffffff\"/>\n</g>\n</g>\n</svg>",
+  "close": "\n        <svg xmlns=\"http://www.w3.org/2000/svg\" width=\"22\" height=\"22\" viewBox=\"0 0 24 24\" fill=\"#ffffff\">\n            <path d=\"M18.3 5.71L12 12l6.3 6.29-1.41 1.41L10.59 13.41 4.29 19.7 2.88 18.29 9.17 12 2.88 5.71 4.29 4.29l6.3 6.3 6.29-6.3z\"/>\n        </svg>",
+  "reset": "<svg version=\"1.1\" width=\"12\" height=\"12\" viewBox=\"0 0 256 256\">\n               <g transform=\"translate(1.4065934065934016 1.4065934065934016) scale(2.81 2.81)\">\n                   <path d=\"M 75.702 53.014 c -2.142 7.995 -7.27 14.678 -14.439 18.816 c -7.168 4.138 -15.519 5.239 -23.514 3.095 c -16.505 -4.423 -26.335 -21.448 -21.913 -37.953 C 20.258 20.467 37.286 10.64 53.79 15.06 c 4.213 1.129 8.076 3.118 11.413 5.809 l -8.349 8.35 h 26.654 V 2.565 l -8.354 8.354 c -5.1 -4.405 -11.133 -7.61 -17.74 -9.381 C 33.451 -4.882 8.735 9.389 2.314 33.35 c -6.42 23.961 7.851 48.678 31.811 55.098 C 38.001 89.486 41.934 90 45.842 90 c 7.795 0 15.488 -2.044 22.42 -6.046 c 10.407 -6.008 17.851 -15.709 20.962 -27.317 L 75.702 53.014 z\"\n                   style=\"fill: #f0f0f0\" />\n               </g>\n           </svg>"
 };
 
 /* ======================= STYLES ======================= */
@@ -236,13 +559,21 @@ window.TULSI_CSS = `
            box-shadow: 0 2px 6px rgba(0, 0, 0, 0.3);
            cursor: pointer;
            }
+           .otherProjectPin {
+           background-color: #ffffff;
+           color: #03649B;
+           font-weight: 600;
+           font-size: 13px;
+           box-shadow: 0 2px 10px rgba(0, 0, 0, 0.5);
+           transform: translateY(-10px);
+           }
            .arrowDiv{
            position:absolute;
            top:100%;
            left:50%;
            transform: translatex(-50%);
-           border-right: 8px solid transparent;
-           border-left: 8px solid transparent;
+           border-right: 5px solid transparent;
+           border-left: 5px solid transparent;
            }
            .aboutUs {
                position: absolute;
@@ -289,12 +620,13 @@ window.TULSI_CSS = `
            }
            .about-logo {
                width: 180px;
-               height: auto;
+               height: 80px;
                margin-bottom: 20px;
                display: block;
                margin-left: auto;
                margin-right: auto;
                filter: brightness(15.5);
+               object-fit: contain;
            }
            .about-contact-section {
                margin: 20px 0;
@@ -499,7 +831,7 @@ window.TULSI_CSS = `
            display: grid;
            grid-template-columns: repeat(4, 1fr); /* ✅ 4 columns */
    
-           grid-auto-rows: min-content;
+           grid-template-rows: 1fr 1fr;
            gap: 20px;
    
            overflow-y: auto;   /* ✅ vertical scroll */
@@ -521,7 +853,8 @@ window.TULSI_CSS = `
    
    /* Default (desktop) */
    .gallery-grid-inner {
-     grid-template-columns: repeat(4, 1fr);
+     grid-template-columns: repeat(4, calc(25% - 15px));
+     justify-content: center;
    }
    
    
@@ -568,20 +901,20 @@ window.TULSI_CSS = `
    .gallery-item-foreground {
        position: relative;
        z-index: 2;
-   
+
        width: 100%;
        height: 100%;
-   
+
        background: rgba(255, 255, 255, 0.8);
-   
+
        display: flex;
        flex-direction: column;
    }
-   
+
    /* ================= IMAGE (70%) ================= */
    .gallery-item-img {
        width: 100%;
-       height: 100%;        /* ✅ fixed 70% rule */
+       height: 100%;
        object-fit: cover;
        pointer-events: none;
    }
@@ -747,12 +1080,13 @@ window.TULSI_CSS = `
      }
            
            .view-switcher2 img{
-           width: 70px;
-           height: auto;
+           width: 100px;
+           height: 40px;
            display: block;
-           margin-left: auto;
-           margin-right: auto;
+           margin-left: 10px;
+           margin-right: 10px;
            filter: brightness(10);
+           object-fit: contain;
            }
            .view-switcher2 button{
            margin:2px;
@@ -1093,6 +1427,10 @@ window.TULSI_CSS = `
    .gallery-item{
    min-height:175px;
    }
+   .gallery-grid-inner{
+   grid-auto-rows: 175px;
+   }
+
      .gallery-item h3 {
        font-size: 0.9rem;
      }
@@ -1110,7 +1448,7 @@ window.TULSI_CSS = `
      }
    
      .view-switcher{
-     width:90%;
+     width:max-content;
      bottom:10px;
      }
    /*
@@ -1125,8 +1463,7 @@ window.TULSI_CSS = `
            flex-direction: column;
            margin: 2px;
            padding:5px 2px;
-           width:100%;
-       } 
+       }
        /*
        #filter-slide-panel{
        width:70%;
@@ -1204,10 +1541,11 @@ window.TULSI_CSS = `
      }
            .view-switcher2 img{
            width: 60px !important ;
-           height: auto !important;
+           height: 35px !important;
            display: block;
            margin-left: auto;
            margin-right: auto;
+           object-fit: contain;
            }
            
            .view-switcher2 button{
@@ -1230,24 +1568,24 @@ window.TULSI_CSS = `
            display:none;
            }
            .view-switcher .toggle-group {
-           width: 50%;
+           width: auto;
            padding: 3px;
-   
+
        }
-   
+
        .view-switcher .toggle-group .shreepad-btn {
            flex-direction: column;
            justify-content: center;
            align-items: center;
            padding: 6px 0;
            gap: 2px;
-           width: 100%;
+           width: 64px;
        }
-   
+
        .view-switcher .shreepad-btn {
            margin: 0;
            padding: 6px 0;
-           width: 25%;
+           width: 64px;
        }
    
        .view-switcher .toggle-group .shreepad-btn svg {
@@ -1467,6 +1805,10 @@ window.TULSI_TEMPLATE = function (C, esc) {
                            <svg viewBox="0 0 24 24" class="about-icon"><path d="M6.62 10.79c1.44 2.83 3.76 5.14 6.59 6.59l2.2-2.2c.27-.27.67-.36 1.02-.24 1.12.37 2.33.57 3.57.57.55 0 1 .45 1 1V20c0 .55-.45 1-1 1-9.39 0-17-7.61-17-17 0-.55.45-1 1-1h3.5c.55 0 1 .45 1 1 0 1.25.2 2.45.57 3.57.11.35.03.74-.25 1.02l-2.2 2.2z"/></svg>
                            <a href="https://wa.me/${C.contact.whatsapp}?text=${encodeURIComponent(C.contact.whatsappAboutMessage)}" target="_blank" class="about-phone-link">${esc(C.contact.phoneDisplay)}</a>
                        </div>
+                       ${C.contact.email ? `<div class="about-phone">
+                           <svg viewBox="0 0 24 24" class="about-icon"><path d="M20 4H4c-1.1 0-2 .9-2 2v12c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 4-8 5-8-5V6l8 5 8-5v2z"/></svg>
+                           <a href="mailto:${esc(C.contact.email)}" class="about-phone-link">${esc(C.contact.email)}</a>
+                       </div>` : ''}
                    </div>
                    
                    <div class="about-follow-us">
@@ -1548,14 +1890,14 @@ window.TULSI_TEMPLATE = function (C, esc) {
                                <input type="checkbox" class="category-toggle" >
                                <span class="slider round"></span>
                            </label>
-                           <span>BRTS, Metro, Railway</span>
+                           <span>Railway</span>
                        </div>
                        <div class="filter-toggle" id="roads-filter">
                            <label class="switch">
                                <input type="checkbox" class="category-toggle" >
                                <span class="slider round"></span>
                            </label>
-                           <span>Roads, Bridges, Circle</span>
+                           <span>Roads, Circle</span>
                        </div>
                        <div class="filter-toggle" id="school-college-filter" >
                            <label class="switch">
@@ -1661,6 +2003,7 @@ window.TULSI_TEMPLATE = function (C, esc) {
   /* ---------- state ---------- */
   var mapInstance = null;
   var otherPins = [];         // non-clickable "other projects" pins
+  var otherPinsVisible = true;
   var overlays = [];          // project polygons / overlays / pins   (have .projectName)
   var landmarkMarkers = [];   // landmark pins + road polylines       (have .fname)
   var defaultCenter = C.maps.center, defaultZoom = C.maps.zoom;
@@ -1670,7 +2013,7 @@ window.TULSI_TEMPLATE = function (C, esc) {
   var selectedRows = null;
 
   var LANDMARK_GROUPS = {
-    '#transit-filter': ['BRTS', 'Railway', 'Metro'],
+    '#transit-filter': ['Railway'],
     '#roads-filter': ['Circle', 'Bridge', 'RoadS', 'Roads'],
     '#school-college-filter': ['School', 'College'],
     '#hospital-filter': ['Hospital'],
@@ -1679,7 +2022,7 @@ window.TULSI_TEMPLATE = function (C, esc) {
     '#multiplex-filter': ['Multiplex']
   };
   var LANDMARK_ICONS = {};
-  ['BRTS', 'Railway', 'Metro', 'Roads', 'Bridge', 'Circle', 'School', 'College', 'Hospital', 'Grocery',
+  ['Railway', 'Roads', 'Bridge', 'Circle', 'School', 'College', 'Hospital', 'Grocery',
     'Aquarium', 'Lake', 'Garden', 'Multiplex'].forEach(function (k) { LANDMARK_ICONS[k] = 'images/locationsPin/' + k + '.webp'; });
 
   /* ==========================================================================
@@ -1717,6 +2060,12 @@ window.TULSI_TEMPLATE = function (C, esc) {
   function renderGallery() {
     var grid = qs('.gallery-grid-inner');
     if (!grid) return;
+    if (window.innerWidth > 1024) {
+      var count = C.projects.length;
+      var cols = count < 8 ? Math.ceil(count / 2) : 4;
+      grid.style.gridTemplateColumns = 'repeat(' + cols + ', calc(25% - 15px))';
+      grid.style.justifyContent = 'center';
+    }
     grid.innerHTML = C.projects.map(function (p) {
       return '<div class="gallery-item" id="' + esc(p.id) + '">' +
         '<div class="gallery-item-background"></div>' +
@@ -1827,6 +2176,7 @@ window.TULSI_TEMPLATE = function (C, esc) {
       showGalleryBtn.classList.add('active-view');
       showMapBtn.classList.remove('active-view');
       if (slider) slider.style.transform = 'translateX(0%)';
+      var tr = $('other-projects-toggle-row'); if (tr) tr.style.display = 'none';
     });
     showMapBtn.addEventListener('click', function () {
       galleryDiv.classList.remove('visible');
@@ -1837,6 +2187,7 @@ window.TULSI_TEMPLATE = function (C, esc) {
       showMapBtn.classList.add('active-view');
       showGalleryBtn.classList.remove('active-view');
       if (slider) slider.style.transform = 'translateX(100%)';
+      var tr = $('other-projects-toggle-row'); if (tr) tr.style.display = 'flex';
     });
 
     $('backBtn').addEventListener('click', function () {
@@ -1881,7 +2232,10 @@ window.TULSI_TEMPLATE = function (C, esc) {
   function setLandmarkVisible(fnames, visible) {
     landmarkMarkers.forEach(function (m) {
       if (fnames.indexOf(m.fname) === -1) return;
-      if (m instanceof google.maps.Polyline) m.setMap(visible ? mapInstance : null);
+      if (m instanceof google.maps.Polyline) {
+        m.setMap(visible ? mapInstance : null);
+        if (!visible && roadInfo && roadInfo.roadLine === m) closeRoadLabel();
+      }
       else m.map = visible ? mapInstance : null;
     });
   }
@@ -1945,7 +2299,10 @@ window.TULSI_TEMPLATE = function (C, esc) {
         var v = row[k];
         if (v === '' || v == null) return;
         if (!map[k]) { map[k] = []; order.push(k); }
-        if (map[k].indexOf(v) === -1) map[k].push(v);
+        String(v).split(',').forEach(function (part) {
+          var trimmed = part.trim();
+          if (trimmed && map[k].indexOf(trimmed) === -1) map[k].push(trimmed);
+        });
       });
     });
     return order.map(function (k) { return { key: k, label: formatTitle(k), values: map[k] }; });
@@ -1980,6 +2337,39 @@ window.TULSI_TEMPLATE = function (C, esc) {
   function rebuildFilterGroups() {
     var box = $('custom-filter-panel');
     box.innerHTML = '';
+
+    // "Other Projects" toggle row (map view only)
+    var toggleRow = document.createElement('div');
+    toggleRow.id = 'other-projects-toggle-row';
+    toggleRow.style.cssText = 'display:flex;align-items:center;gap:10px;margin-bottom:12px;';
+    var toggleBtn = document.createElement('button');
+    toggleBtn.id = 'other-projects-toggle';
+    toggleBtn.style.cssText = 'position:relative;width:42px;height:22px;border-radius:11px;border:none;cursor:pointer;transition:background 0.2s;outline:none;flex-shrink:0;';
+    function syncToggleBtn() {
+      toggleBtn.style.background = otherPinsVisible ? '#03649B' : '#555';
+      var knob = toggleBtn.querySelector('.knob');
+      if (knob) knob.style.left = otherPinsVisible ? '22px' : '2px';
+    }
+    var knob = document.createElement('span');
+    knob.className = 'knob';
+    knob.style.cssText = 'position:absolute;top:2px;width:18px;height:18px;border-radius:50%;background:#fff;transition:left 0.2s;';
+    toggleBtn.appendChild(knob);
+    syncToggleBtn();
+    toggleBtn.addEventListener('click', function () {
+      otherPinsVisible = !otherPinsVisible;
+      syncToggleBtn();
+      otherPins.forEach(function (m) { m.map = otherPinsVisible ? mapInstance : null; });
+    });
+    var toggleLabel = document.createElement('span');
+    toggleLabel.textContent = 'Other Projects';
+    toggleLabel.style.cssText = 'color:#b9b9b9;font-size:14px;';
+    toggleRow.appendChild(toggleBtn);
+    toggleRow.appendChild(toggleLabel);
+    // hide when gallery view is active
+    var galleryEl = $('gallery');
+    if (galleryEl && galleryEl.classList.contains('visible')) toggleRow.style.display = 'none';
+    box.appendChild(toggleRow);
+
     availableFilters = computeFilterGroups();
     availableFilters.forEach(function (f) { box.appendChild(createGroup(f)); });
   }
@@ -2029,6 +2419,15 @@ window.TULSI_TEMPLATE = function (C, esc) {
   function resetFilters() {
     qsa('.shree-filter-btn').forEach(function (b) { b.classList.remove('active'); });
     qsa('.group-reset-btn').forEach(function (b) { b.style.display = 'none'; });
+    if (!otherPinsVisible) {
+      otherPinsVisible = true;
+      var toggleBtn = $('other-projects-toggle');
+      if (toggleBtn) {
+        toggleBtn.style.background = '#03649B';
+        var knob = toggleBtn.querySelector('.knob');
+        if (knob) knob.style.left = '22px';
+      }
+    }
     applyFilters();
   }
 
@@ -2053,12 +2452,19 @@ window.TULSI_TEMPLATE = function (C, esc) {
     var names = selectedRows.map(function (r) { return String(r.name || '').trim(); }).filter(Boolean);
     showOnlyProjects(names);
     var anyActive = qsa('.shree-filter-btn.active').length > 0;
-    otherPins.forEach(function (m) { m.map = anyActive ? null : mapInstance; });
+    otherPins.forEach(function (m) { m.map = (anyActive || !otherPinsVisible) ? null : mapInstance; });
     fitMapToProjects(names);
 
     var shownIds = {};
     names.forEach(function (n) { var p = projectByName(n); if (p) shownIds[p.id] = true; });
     qsa('.gallery-item').forEach(function (el) { el.style.display = shownIds[el.id] ? '' : 'none'; });
+    var grid = qs('.gallery-grid-inner');
+    if (grid && window.innerWidth > 1024) {
+      var visibleCount = Object.keys(shownIds).length;
+      var cols = visibleCount < 8 ? Math.ceil(visibleCount / 2) : 4;
+      grid.style.gridTemplateColumns = 'repeat(' + cols + ', calc(25% - 15px))';
+      grid.style.justifyContent = 'center';
+    }
 
     updateFilterBar();
   }
@@ -2125,7 +2531,7 @@ window.TULSI_TEMPLATE = function (C, esc) {
     window.initTulsiMap = initMap;
     var s = document.createElement('script');
     s.src = 'https://maps.googleapis.com/maps/api/js?key=' + encodeURIComponent(C.maps.apiKey) +
-      '&callback=initTulsiMap&libraries=marker&v=weekly';
+      '&callback=initTulsiMap&libraries=marker,places&v=weekly';
     s.async = true; s.defer = true;
     document.head.appendChild(s);
   }
@@ -2222,9 +2628,13 @@ window.TULSI_TEMPLATE = function (C, esc) {
       });
       (C.otherProjects || []).forEach(function (o) {
         if (o.lat == null || o.lng == null) return;
+        var el = document.createElement('div');
+        el.className = 'textPin otherProjectPin';
+        el.innerHTML = o.name + '<div class="arrowDiv" style="border-top:10px solid white;"></div>';
+        if (o.link) { el.style.cursor = 'pointer'; el.addEventListener('click', function () { window.open(o.link, '_blank'); }); }
         otherPins.push(new AdvancedMarkerElement({
           position: { lat: Number(o.lat), lng: Number(o.lng) },
-          map: mapInstance, content: pinImg(o.pin, o.name, false), zIndex: 50
+          map: mapInstance, content: el, zIndex: 50
         }));
       });
     });
@@ -2289,11 +2699,52 @@ window.TULSI_TEMPLATE = function (C, esc) {
     (C.roads || []).forEach(function (r) {
       var line = new google.maps.Polyline({
         map: null, path: r.latlng, geodesic: true,
-        strokeColor: r.color || '#fffc1f', strokeOpacity: 0.8, strokeWeight: 5
+        strokeColor: r.color || '#FFD700', strokeOpacity: 0.8, strokeWeight: 8, zIndex: 1
       });
       line.fname = r.fname || 'Roads';
+      line.roadName = r.name || '';
+      if (line.roadName) attachRoadLabel(line);
       landmarkMarkers.push(line);
     });
+  }
+
+  /* Road name label: hover preview on desktop, tap/click to pin it (with close button) */
+  var roadInfo = null, roadInfoPinned = false;
+  var canHover = window.matchMedia && window.matchMedia('(hover: hover) and (pointer: fine)').matches;
+  function roadLabelContent(name) {
+    var d = document.createElement('div');
+    d.style.cssText = 'font-size:13px;font-weight:600;color:#222;padding:2px 4px;white-space:nowrap;';
+    d.textContent = name;
+    return d;
+  }
+  function showRoadLabel(line, latLng, pin) {
+    if (!roadInfo) {
+      roadInfo = new google.maps.InfoWindow({ disableAutoPan: true });
+      roadInfo.addListener('closeclick', function () { roadInfoPinned = false; });
+    }
+    roadInfo.setContent(roadLabelContent(line.roadName));
+    roadInfo.setPosition(latLng);
+    roadInfo.roadLine = line;
+    roadInfoPinned = !!pin;
+    roadInfo.open({ map: mapInstance });
+  }
+  function closeRoadLabel() {
+    if (roadInfo) roadInfo.close();
+    roadInfoPinned = false;
+  }
+  function attachRoadLabel(line) {
+    if (canHover) {
+      line.addListener('mouseover', function (e) {
+        if (!roadInfoPinned) showRoadLabel(line, e.latLng, false);
+      });
+      line.addListener('mousemove', function (e) {
+        if (!roadInfoPinned && roadInfo && roadInfo.roadLine === line) roadInfo.setPosition(e.latLng);
+      });
+      line.addListener('mouseout', function () {
+        if (!roadInfoPinned && roadInfo) roadInfo.close();
+      });
+    }
+    line.addListener('click', function (e) { showRoadLabel(line, e.latLng, true); });
   }
 
   /* ---------- optional Google-Sheet live data ---------- */
@@ -2454,7 +2905,40 @@ window.TULSI_TEMPLATE = function (C, esc) {
     hide: function () { var gm = $('galleryAndMap'); if (gm) gm.style.display = 'none'; },
     resetFilters: resetFilters,
     closeTour: closeIframe,
-    openProject: function (name) { var p = projectByName(name); if (p) openProject(p); }
+    openProject: function (name) { var p = projectByName(name); if (p) openProject(p); },
+    testNearby: function () {
+      var projects = window.TULSI_CONFIG.projects;
+      // fname → Google Places type mapping
+      var typeMap = [
+        { fname: 'Railway',   type: 'train_station' },
+        { fname: 'School',    type: 'school' },
+        { fname: 'College',   type: 'university' },
+        { fname: 'Hospital',  type: 'hospital' },
+        { fname: 'Grocery',   type: 'supermarket' },
+        { fname: 'Garden',    type: 'park' },
+        { fname: 'Multiplex', type: 'movie_theater' },
+        { fname: 'Lake',      type: 'natural_feature' }
+      ];
+      var service = new google.maps.places.PlacesService(document.createElement('div'));
+      var allResults = {};
+      var pending = 0;
+      projects.forEach(function (p) {
+        typeMap.forEach(function (tm) {
+          pending++;
+          service.nearbySearch({ location: { lat: p.lat, lng: p.lng }, radius: 5000, type: tm.type }, function (results, status) {
+            if (!allResults[p.name]) allResults[p.name] = {};
+            allResults[p.name][tm.fname] = status === 'OK' ? results.slice(0, 15).map(function (r) {
+              return { name: r.name, lat: r.geometry.location.lat(), lng: r.geometry.location.lng() };
+            }) : [];
+            pending--;
+            if (pending === 0) {
+              console.log('=== COPY BELOW INTO window.NEARBY_RESULTS ===');
+              console.log(JSON.stringify(allResults, null, 2));
+            }
+          });
+        });
+      });
+    }
   };
 
   renderComponent();
