@@ -19,7 +19,7 @@ window.TULSI_CONFIG = {
   /* ---------- Contact / About Us popup ---------- */
   contact: {
     address: "B-1202, Sonorous, Mahatma Gandhi Circle, Vapi, Gujarat - 396191",
-    mapsLink: "https://maps.google.com",           // REPLACE ("Open in Google" button)
+    mapsLink: "https://maps.google.com",           // REPLACE ("Open in Google" button)    
     phoneDisplay: "+91 75675 55440",               // REPLACE
     email: "sales@tulsigroupvapi.in",
     whatsapp: "917567555440",                      // REPLACE (country code + number, digits only)
@@ -267,7 +267,7 @@ window.TULSI_CONFIG = {
     { name: "Lake View Residency",lat: 20.3427658, lng: 72.9406363, link: "https://maps.app.goo.gl/Qk3hg5G48GEMRiFD8" },
     { name: "Peace Avenue",          lat: 20.3401076, lng: 72.9392183, link: "https://maps.app.goo.gl/kSPmTiwPz68aiGGr9" },
     { name: "Tulsi Darshan Apartment", lat: 20.3747293, lng: 72.9012565, link: "https://maps.app.goo.gl/ARUndB8kTtoLy8aj8" },
-    { name: "Tulsi Ver Apartment",   lat: 20.3721025, lng: 72.9072931, link: "https://maps.app.goo.gl/CNHdVzMwtGEfCLbU8" },
+    { name: "Tulsi Veer Apartment",   lat: 20.3721025, lng: 72.9072931, link: "https://maps.app.goo.gl/CNHdVzMwtGEfCLbU8" },
     { name: "Ratnamani",             lat: 20.3715804, lng: 72.9060315, link: "https://maps.app.goo.gl/CESCBZdnbwbnEDdH8" },
     { name: "Tulsimani Apartment",   lat: 20.371186,  lng: 72.9074749, link: "https://maps.app.goo.gl/ywM7grhAvg3cBRQG6" },
     { name: "Tulsi Kunj",            lat: 20.3700741, lng: 72.9048751, link: "https://maps.app.goo.gl/WNzRdkVf3GBFeUH56" },
